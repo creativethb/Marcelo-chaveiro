@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Marcelo Chaveiro — Chaveiro e Cutelaria | Campo Grande RJ</title>
+<meta name="description" content="Marcelo Chaveiro — Chaves codificadas, cutelaria, fechaduras digitais, câmeras e mais. Atendimento em domicílio. WhatsApp 2027-7332." />
+<meta name="keywords" content="chaveiro campo grande, chaveiro rio de janeiro, chaves codificadas, cutelaria, afiação, fechadura digital, interfone, câmeras, carimbos" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#0A0A0A" id="meta-theme" />
+<!-- Favicon -->
+<link rel="icon" type="image/jpeg" sizes="64x64" href="https://raw.githubusercontent.com/creativethb/Marcelo-chaveiro/main/IMG/LOGO.jpg" />
+<link rel="icon" type="image/jpeg" sizes="32x32" href="https://raw.githubusercontent.com/creativethb/Marcelo-chaveiro/main/IMG/LOGO.jpg" />
+<link rel="icon" type="image/jpeg" sizes="16x16" href="https://raw.githubusercontent.com/creativethb/Marcelo-chaveiro/main/IMG/LOGO.jpg" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/creativethb/Marcelo-chaveiro/main/IMG/LOGO.jpg" />
+<link rel="shortcut icon" href="https://raw.githubusercontent.com/creativethb/Marcelo-chaveiro/main/IMG/LOGO.jpg" />
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Marcelo Chaveiro — Chaveiro e Cutelaria | Campo Grande RJ" />
+<meta property="og:description" content="Chaves codificadas, cutelaria, fechaduras digitais e mais. Atendimento em domicílio." />
+<meta property="og:url" content="https://creativethb.github.io/Marcelo-chaveiro/" />
+<meta property="og:image" content="https://raw.githubusercontent.com/creativethb/Marcelo-chaveiro/main/IMG/BANNER.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="1600" />
+<meta property="og:image:alt" content="Marcelo Chaveiro — Banner — Chaveiro e Cutelaria em Campo Grande, Rio de Janeiro" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:site_name" content="Marcelo Chaveiro" />
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Marcelo Chaveiro — Chaveiro e Cutelaria | Campo Grande RJ" />
+<meta name="twitter:description" content="Chaves codificadas, cutelaria, fechaduras digitais e mais. Atendimento em domicílio." />
+<meta name="twitter:image" content="https://raw.githubusercontent.com/creativethb/Marcelo-chaveiro/main/IMG/BANNER.png" />
+<!-- System Font Stack -->
+<script>
+(function(){
+var t=localStorage.getItem('marcelo-theme');
+var prefersDark=window.matchMedia('(prefers-color-scheme:dark)').matches;
+var isDark=t?t==='dark':prefersDark;
+var h=document.documentElement;
+if(isDark){h.className='dark'}else{h.className='light'}
+var m=document.querySelector('#meta-theme');
+if(m)m.setAttribute('content',isDark?'#0A0A0A':'#f5f5f0');
+})();
+</script>
+<!-- Tailwind CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+darkMode: 'class',
+theme: {
+extend: {
+fontFamily: {
+heading: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+body: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+},
+colors: {
+accent: { DEFAULT: '#FFD400', hover: '#FFC107', dim: '#B8960A' },
+'brand-black': '#0A0A0A',
+'brand-white': '#FFFFFF',
+'green-whatsapp': { DEFAULT: '#25D366', hover: '#1EBE5A' },
+surface: {
+dark: '#0A0A0A',
+card: '#141414',
+'card-hover': '#1C1C1C',
+elevated: '#1A1A1A',
+border: '#2A2A2A',
+light: '#f5f5f0',
+'light-alt': '#eeeee8',
+'light-card': '#FFFFFF',
+},
+'text-light': {
+primary: '#1a1a1a',
+secondary: '#444444',
+muted: '#6a6a6a',
+},
+},
+},
+},
+};
+</script>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;margin:0;padding:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden}
+html.dark body{background:#0A0A0A;color:#fff;transition:background-color .3s,color .3s}
+html.light body{background:#f5f5f0;color:#1a1a1a;transition:background-color .3s,color .3s}
+h1,h2,h3,h4,h5,h6{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;letter-spacing:-0.02em}
+/* Scrollbar */
+::-webkit-scrollbar{width:6px}
+html.dark ::-webkit-scrollbar-track{background:#0A0A0A}
+html.dark ::-webkit-scrollbar-thumb{background:#333;border-radius:3px}
+html.dark ::-webkit-scrollbar-thumb:hover{background:#FFD400}
+html.light ::-webkit-scrollbar-track{background:#f5f5f0}
+html.light ::-webkit-scrollbar-thumb{background:#bbb;border-radius:3px}
+html.light ::-webkit-scrollbar-thumb:hover{background:#FFD400}
+/* Scroll Progress */
+#scroll-progress{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,#FFD400,#FFC107,#FFD400);z-index:9999;transition:width .1s linear;width:0}
+/* Noise Texture */
+.noise{position:relative}
+.noise::after{content:'';position:absolute;inset:0;opacity:.015;pointer-events:none;z-index:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+html.light .noise::after{opacity:.005}
+/* Animations */
+@keyframes pulse-glow{0%,100%{box-shadow:0 0 0 0 rgba(255,212,0,.45)}50%{box-shadow:0 0 0 14px rgba(255,212,0,0)}}
+@keyframes float-up{0%{transform:translateY(40px);opacity:0}100%{transform:translateY(0);opacity:1}}
+@keyframes float-right{0%{transform:translateX(40px);opacity:0}100%{transform:translateX(0);opacity:1}}
+@keyframes glow-pulse{0%,100%{opacity:.3}50%{opacity:.6}}
+@keyframes spin-slow{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+@keyframes modal-in{0%{opacity:0;transform:translateY(30px) scale(.97)}100%{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes sheet-in{0%{transform:translateY(100%)}100%{transform:translateY(0)}}
+@keyframes overlay-in{0%{opacity:0}100%{opacity:1}}
+@keyframes spinner{to{transform:rotate(360deg)}}
+@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+@keyframes shimmer{0%{background-position:-200% center}100%{background-position:200% center}}
+@keyframes dot-pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.animate-pulse-glow{animation:pulse-glow 2s infinite}
+.animate-float-up{animation:float-up .7s ease-out forwards}
+.animate-float-right{animation:float-right .7s ease-out forwards}
+.animate-glow{animation:glow-pulse 3s ease-in-out infinite}
+.animate-spin-slow{animation:spin-slow 20s linear infinite}
+.animate-modal-in{animation:modal-in .35s cubic-bezier(.16,1,.3,1) forwards}
+.animate-sheet-in{animation:sheet-in .4s cubic-bezier(.16,1,.3,1) forwards}
+.animate-overlay-in{animation:overlay-in .25s ease-out forwards}
+.animate-spinner{animation:spinner .7s linear infinite}
+.animate-marquee{animation:marquee 30s linear infinite}
+.animate-shimmer{background-size:200% auto;animation:shimmer 3s linear infinite}
+/* Text gradient */
+.text-gradient{background:linear-gradient(135deg,#FFD400 0%,#FFF176 50%,#FFD400 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+/* Card glow (dark only) */
+html.dark .card-glow{position:relative;overflow:hidden}
+html.dark .card-glow::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle,rgba(255,212,0,.06) 0%,transparent 70%);opacity:0;transition:opacity .4s;pointer-events:none}
+html.dark .card-glow:hover::before{opacity:1}
+/* Light mode card shadows */
+html.light .light-card-shadow{box-shadow:0 1px 3px rgba(0,0,0,.05),0 4px 16px rgba(0,0,0,.04)}
+html.light .light-card-shadow:hover{box-shadow:0 4px 20px rgba(0,0,0,.08),0 2px 8px rgba(0,0,0,.04)}
+/* Micro-hover */
+.micro-hover{transition:transform .15s,box-shadow .15s}
+.micro-hover:hover{transform:translateY(-3px)}
+.micro-hover:active{transform:translateY(0)}
+/* Focus */
+*:focus-visible{outline:2px solid #FFD400;outline-offset:2px}
+::selection{background:#FFD400;color:#0A0A0A}
+/* Safe area */
+.safe-area-pb{padding-bottom:env(safe-area-inset-bottom,0)}
+/* Modal body lock */
+body.modal-open{overflow:hidden;touch-action:none}
+/* Scroll reveal */
+.scroll-reveal{opacity:0;transform:translateY(35px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}
+.scroll-reveal.visible{opacity:1;transform:translateY(0)}
+.scroll-reveal-left{opacity:0;transform:translateX(-35px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}
+.scroll-reveal-left.visible{opacity:1;transform:translateX(0)}
+.scroll-reveal-right{opacity:0;transform:translateX(35px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}
+.scroll-reveal-right.visible{opacity:1;transform:translateX(0)}
+/* Grid bg */
+.grid-bg{background-image:linear-gradient(rgba(255,212,0,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,212,0,.03) 1px,transparent 1px);background-size:60px 60px}
+/* Accordion */
+.accordion-content{max-height:0;opacity:0;overflow:hidden;transition:max-height .4s ease,opacity .3s ease,padding .3s ease}
+.accordion-content.open{max-height:400px;opacity:1}
+/* Testimonial carousel */
+.testimonial-track{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:8px}
+.testimonial-track::-webkit-scrollbar{display:none}
+.testimonial-track>*{scroll-snap-align:start;flex-shrink:0}
+@media(min-width:768px){.testimonial-track{overflow:visible;flex-wrap:wrap;justify-content:center}.testimonial-track>*{flex-shrink:1}}
+/* Counter animation */
+.counter-value{display:inline-block}
+/* Online dot */
+.online-dot{width:8px;height:8px;background:#25D366;border-radius:50%;display:inline-block;animation:dot-pulse 1.5s ease-in-out infinite}
+/* Service number */
+.service-num{position:absolute;top:-8px;left:-8px;width:36px;height:36px;background:#FFD400;color:#0A0A0A;font-weight:900;font-size:14px;border-radius:12px;display:flex;align-items:center;justify-content:center;z-index:2;box-shadow:0 4px 12px rgba(255,212,0,.3)}
+/* Back to top */
+#back-to-top{transition:all .3s ease;transform:translateY(20px);opacity:0}
+#back-to-top.visible{transform:translateY(0);opacity:1}
+/* Rating bars */
+.rating-bar{height:6px;border-radius:3px;overflow:hidden}
+html.dark .rating-bar{background:rgba(255,212,0,.15)}
+html.light .rating-bar{background:rgba(255,212,0,.2)}
+.rating-fill{height:100%;background:#FFD400;border-radius:3px;transition:width 1s ease}
+/* ============================
+LIGHT MODE SPECIFIC FIXES
+============================ */
+html.light #header{background:rgba(245,245,240,.85);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+html.light #header.scrolled{background:rgba(245,245,240,.95);box-shadow:0 1px 3px rgba(0,0,0,.06),0 4px 16px rgba(0,0,0,.04)}
+html.dark #header.scrolled{background:rgba(10,10,10,.95);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);box-shadow:0 4px 24px rgba(0,0,0,.3)}
+html.light .section-alt{background:#fff}
+html.light .section-main{background:#f5f5f0}
+html.light input,html.light select,html.light textarea{background:#f5f5f0 !important;border-color:#ddd !important;color:#1a1a1a !important}
+html.light input:focus,html.light select:focus,html.light textarea:focus{border-color:#FFD400 !important;box-shadow:0 0 0 3px rgba(255,212,0,.15) !important}
+html.light input::placeholder,html.light textarea::placeholder{color:#999 !important}
+html.light #modal-box{background:#fff;box-shadow:0 25px 60px rgba(0,0,0,.12),0 4px 16px rgba(0,0,0,.06)}
+html.light .border-gray-100{border-color:#e5e5e0}
+html.light .border-gray-200{border-color:#d5d5d0}
+</style>
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Locksmith",
+"name": "Marcelo Chaveiro",
+"description": "Chaveiro e Cutelaria em Campo Grande, Rio de Janeiro. Chaves codificadas, afiação, fechaduras digitais, interfone, câmeras, carimbos e placas. Atendimento em domicílio.",
+"url": "https://creativethb.github.io/Marcelo-chaveiro/",
+"telephone": "+552120277332",
+"address": {
+"@type": "PostalAddress",
+"streetAddress": "Estrada da Posse, 580",
+"addressLocality": "Campo Grande",
+"addressRegion": "RJ",
+"postalCode": "23092-122",
+"addressCountry": "BR"
+},
+"openingHours": "Mo-Su 00:00-23:59",
+"priceRange": "$$",
+"areaServed": "Campo Grande, Rio de Janeiro, RJ",
+"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "5.0",
+"reviewCount": "850"
+}
+}
+</script>
+<script>window.dataLayer = window.dataLayer || [];</script>
+</head>
+<body class="font-body">
+<!-- Scroll Progress Bar -->
+<div id="scroll-progress" aria-hidden="true"></div>
+<!-- ANNOUNCEMENT BAR -->
+<div id="announcement-bar" class="bg-accent text-brand-black text-xs font-bold overflow-hidden whitespace-nowrap relative z-50 h-8 flex items-center transition-transform duration-300">
+<div class="animate-marquee inline-flex gap-16 items-center">
+<span class="inline-flex items-center gap-1.5">⚡ Atendimento em Domicílio — Campo Grande e região</span>
+<span class="inline-flex items-center gap-1.5">🔑 Chaves codificadas e residenciais</span>
+<span class="inline-flex items-center gap-1.5">🔪 Afiamos objetos cortantes</span>
+<span class="inline-flex items-center gap-1.5">🔐 Fechadura Digital</span>
+<span class="inline-flex items-center gap-1.5">📹 Interfone e Câmeras</span>
+<span class="inline-flex items-center gap-1.5">📞 2027-7332</span>
+<span class="inline-flex items-center gap-1.5">✅ Serviço com garantia</span>
+<span class="inline-flex items-center gap-1.5">⚡ Atendimento em Domicílio — Campo Grande e região</span>
+<span class="inline-flex items-center gap-1.5">🔑 Chaves codificadas e residenciais</span>
+<span class="inline-flex items-center gap-1.5">🔪 Afiamos objetos cortantes</span>
+<span class="inline-flex items-center gap-1.5">🔐 Fechadura Digital</span>
+<span class="inline-flex items-center gap-1.5">📹 Interfone e Câmeras</span>
+<span class="inline-flex items-center gap-1.5">📞 2027-7332</span>
+<span class="inline-flex items-center gap-1.5">✅ Serviço com garantia</span>
+</div>
+</div>
+<!-- HEADER -->
+<header id="header" class="fixed left-0 right-0 z-50 transition-all duration-300" style="top:32px" role="banner">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 h-[64px] flex items-center justify-between">
+<!-- Logo -->
+<a href="#" class="flex items-center gap-3 group" aria-label="Marcelo Chaveiro - Início">
+<div class="w-10 h-10 rounded-xl overflow-hidden border-2 border-accent/30 group-hover:border-accent transition-all shadow-lg shadow-accent/10 group-hover:scale-105">
+<img src="https://raw.githubusercontent.com/creativethb/Marcelo-chaveiro/main/IMG/LOGO.jpg" alt="Marcelo Chaveiro Logo" class="w-full h-full object-cover" loading="eager" width="40" height="40" />
+</div>
+<div class="flex flex-col">
+<span class="font-heading font-black dark:text-white text-brand-black text-sm sm:text-base leading-tight tracking-tight">
+MARCELO <span class="text-accent">CHAVEIRO</span>
+</span>
+<span class="flex items-center gap-1.5 text-[10px] font-semibold tracking-wide">
+<span class="online-dot"></span>
+<span class="dark:text-green-400 text-green-600">Online agora</span>
+</span>
+</div>
+</a>
+<!-- Desktop Nav -->
+<nav class="hidden lg:flex items-center gap-6" aria-label="Navegação principal">
+<a href="#servicos" class="relative dark:text-white/60 text-text-light-secondary hover:text-accent text-[13px] font-semibold transition-colors group py-1">
+Serviços <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full rounded-full"></span>
+</a>
+<a href="#diferenciais" class="relative dark:text-white/60 text-text-light-secondary hover:text-accent text-[13px] font-semibold transition-colors group py-1">
+Diferenciais <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full rounded-full"></span>
+</a>
+<a href="#sobre" class="relative dark:text-white/60 text-text-light-secondary hover:text-accent text-[13px] font-semibold transition-colors group py-1">
+Sobre <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full rounded-full"></span>
+</a>
+<a href="#faq" class="relative dark:text-white/60 text-text-light-secondary hover:text-accent text-[13px] font-semibold transition-colors group py-1">
+FAQ <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full rounded-full"></span>
+</a>
+<a href="#contato" class="relative dark:text-white/60 text-text-light-secondary hover:text-accent text-[13px] font-semibold transition-colors group py-1">
+Contato <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full rounded-full"></span>
+</a>
+</nav>
+<!-- Right side -->
+<div class="flex items-center gap-2">
+<button id="theme-toggle" class="w-9 h-9 rounded-xl dark:bg-white/5 bg-black/5 dark:hover:bg-white/10 hover:bg-black/10 flex items-center justify-center transition-all group" aria-label="Alternar tema claro/escuro">
+<svg class="w-4 h-4 text-accent group-hover:rotate-90 transition-transform duration-500 hidden dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+<svg class="w-4 h-4 text-text-light-secondary group-hover:-rotate-12 transition-transform duration-500 block dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+</button>
+<button onclick="openContactModal()" class="cta-modal inline-flex items-center gap-1.5 bg-accent hover:bg-accent-hover text-brand-black text-xs font-bold px-4 py-2.5 rounded-xl transition-all shadow-lg shadow-accent/20 hover:shadow-accent/40 hover:scale-105 active:scale-95" aria-label="Fale conosco">
+<svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+<span class="hidden sm:inline">Fale Conosco</span>
+<span class="sm:hidden">Contato</span>
+</button>
+<button id="menu-toggle" class="lg:hidden dark:text-white text-brand-black p-2 rounded-xl dark:hover:bg-white/10 hover:bg-black/5 transition-colors" aria-label="Abrir menu" aria-expanded="false">
+<svg class="w-5 h-5" id="menu-icon-open" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+<svg class="w-5 h-5 hidden" id="menu-icon-close" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+</button>
+</div>
+</div>
+<!-- Mobile Nav -->
+<div id="mobile-nav" class="lg:hidden overflow-hidden transition-all duration-300 max-h-0 opacity-0">
+<nav class="dark:bg-brand-black/98 bg-white/98 backdrop-blur-xl border-t dark:border-white/5 border-gray-200 pb-4 px-4" aria-label="Menu mobile">
+<a href="#servicos" class="mobile-nav-link flex items-center justify-between px-4 py-3.5 dark:text-white/80 text-text-light-secondary hover:text-accent text-sm font-medium transition-colors rounded-xl dark:hover:bg-white/5 hover:bg-gray-100 my-0.5">Serviços <svg class="w-4 h-4 opacity-30" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg></a>
+<a href="#diferenciais" class="mobile-nav-link flex items-center justify-between px-4 py-3.5 dark:text-white/80 text-text-light-secondary hover:text-accent text-sm font-medium transition-colors rounded-xl dark:hover:bg-white/5 hover:bg-gray-100 my-0.5">Diferenciais <svg class="w-4 h-4 opacity-30" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg></a>
+<a href="#sobre" class="mobile-nav-link flex items-center justify-between px-4 py-3.5 dark:text-white/80 text-text-light-secondary hover:text-accent text-sm font-medium transition-colors rounded-xl dark:hover:bg-white/5 hover:bg-gray-100 my-0.5">Sobre <svg class="w-4 h-4 opacity-30" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg></a>
+<a href="#faq" class="mobile-nav-link flex items-center justify-between px-4 py-3.5 dark:text-white/80 text-text-light-secondary hover:text-accent text-sm font-medium transition-colors rounded-xl dark:hover:bg-white/5 hover:bg-gray-100 my-0.5">FAQ <svg class="w-4 h-4 opacity-30" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg></a>
+<a href="#contato" class="mobile-nav-link flex items-center justify-between px-4 py-3.5 dark:text-white/80 text-text-light-secondary hover:text-accent text-sm font-medium transition-colors rounded-xl dark:hover:bg-white/5 hover:bg-gray-100 my-0.5">Contato <svg class="w-4 h-4 opacity-30" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg></a>
+</nav>
+</div>
+</header>
+<!-- HERO -->
+<section class="relative pt-24 sm:pt-28 dark:bg-surface-dark bg-surface-light section-main noise overflow-hidden" aria-label="Seção principal">
+<!-- Background FX -->
+<div class="absolute inset-0 pointer-events-none overflow-hidden" aria-hidden="true">
+<div class="absolute -top-40 -right-40 w-[600px] h-[600px] bg-accent/5 rounded-full blur-[100px] animate-glow"></div>
+<div class="absolute top-1/2 -left-20 w-[400px] h-[400px] bg-accent/[0.03] rounded-full blur-[80px]"></div>
+<div class="absolute inset-0 grid-bg"></div>
+<div class="absolute top-40 right-[15%] w-24 h-24 border border-accent/10 rotate-45 rounded-xl hidden lg:block"></div>
+<div class="absolute bottom-40 left-[10%] w-20 h-20 border border-accent/10 rotate-12 rounded-full hidden lg:block"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-10 sm:py-16 md:py-24 lg:py-32">
+<div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
+<!-- Text -->
+<div class="flex-1 text-center lg:text-left animate-float-up">
+<div class="inline-flex items-center gap-2 bg-accent/10 border border-accent/20 text-accent text-[10px] sm:text-[11px] font-bold px-3 sm:px-4 py-2 rounded-full mb-5 backdrop-blur-sm">
+<span class="online-dot"></span>
+ATENDIMENTO EM DOMICÍLIO — CAMPO GRANDE E REGIÃO
+</div>
+<h1 class="font-heading font-black dark:text-white text-brand-black text-[2.2rem] sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl leading-[0.9] tracking-tighter">
+<span class="text-gradient">MARCELO</span><br/>
+<span class="text-[0.55em]">CHAVEIRO</span>
+</h1>
+<h2 class="font-heading font-bold dark:text-white/80 text-text-light-secondary text-base sm:text-xl md:text-2xl mt-3 mb-4 tracking-tight">
+<span class="text-accent">Chaveiro e Cutelaria</span>
+</h2>
+<p class="dark:text-white/45 text-text-light-muted text-sm sm:text-base md:text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed mb-7">
+Serviços profissionais de chaveiro e afiação. Atendimento em domicílio com rapidez, qualidade e garantia.
+</p>
+<!-- CTAs -->
+<div class="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
+<button onclick="openContactModal()" class="cta-modal inline-flex items-center justify-center gap-2.5 font-bold rounded-2xl transition-all hover:scale-[1.03] active:scale-[0.98] bg-accent hover:bg-accent-hover text-brand-black shadow-xl shadow-accent/25 hover:shadow-accent/40 text-sm sm:text-base px-6 sm:px-8 py-3.5 sm:py-4 group">
+<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+Chamar no WhatsApp
+<svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+</button>
+<button onclick="openContactModal()" class="cta-modal inline-flex items-center justify-center gap-2.5 font-bold rounded-2xl transition-all hover:scale-[1.02] active:scale-[0.98] dark:bg-white/5 bg-white dark:hover:bg-white/10 hover:bg-gray-50 dark:text-white text-brand-black dark:border-white/10 border-gray-300 border text-sm sm:text-base px-6 sm:px-8 py-3.5 sm:py-4 shadow-lg dark:shadow-black/10 shadow-gray-300/30">
+<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+Ligar Agora
+</button>
+</div>
+<div class="flex items-center justify-center lg:justify-start gap-3 sm:gap-4 mt-5">
+<p class="dark:text-white/25 text-text-light-muted text-[10px] sm:text-xs flex items-center gap-1.5">
+<svg class="w-3.5 h-3.5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Resposta rápida
+</p>
+<span class="dark:text-white/10 text-gray-300">|</span>
+<p class="dark:text-white/25 text-text-light-muted text-[10px] sm:text-xs flex items-center gap-1.5">
+<svg class="w-3.5 h-3.5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg> Serviço com garantia
+</p>
+</div>
+</div>
+<!-- Hero Grid -->
+<div class="flex-1 flex justify-center lg:justify-end animate-float-right">
+<div class="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-[400px] lg:h-[400px]">
+<div class="absolute inset-0 rounded-full border border-accent/10 animate-spin-slow"></div>
+<div class="absolute inset-3 rounded-full border border-dashed border-accent/5"></div>
+<div class="absolute inset-2 sm:inset-6 flex items-center justify-center">
+<div class="grid grid-cols-2 gap-2.5 sm:gap-4">
+<button onclick="trackEvent('top_icon_click',{icon:'Chaves'});document.querySelector('#servicos').scrollIntoView({behavior:'smooth'})" class="w-[115px] h-[115px] sm:w-32 sm:h-32 lg:w-[160px] lg:h-[160px] dark:bg-white/[0.04] bg-white dark:border-white/[0.06] border-gray-200 border backdrop-blur-xl rounded-2xl flex flex-col items-center justify-center gap-2 dark:hover:bg-white/[0.08] hover:bg-gray-50 transition-all duration-300 cursor-pointer group shadow-lg dark:shadow-black/20 shadow-gray-200/50 micro-hover" aria-label="Ver serviços de Chaves">
+<div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br from-accent/20 to-accent/5 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+<svg class="w-5 h-5 sm:w-6 sm:h-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4"/><path d="m21 2-9.6 9.6"/><circle cx="7.5" cy="15.5" r="5.5"/></svg>
+</div>
+<span class="dark:text-white/70 text-text-light-secondary text-[10px] sm:text-xs font-bold">Chaves</span>
+</button>
+<button onclick="trackEvent('top_icon_click',{icon:'Cutelaria'});document.querySelector('#servicos').scrollIntoView({behavior:'smooth'})" class="w-[115px] h-[115px] sm:w-32 sm:h-32 lg:w-[160px] lg:h-[160px] dark:bg-white/[0.04] bg-white dark:border-white/[0.06] border-gray-200 border backdrop-blur-xl rounded-2xl flex flex-col items-center justify-center gap-2 dark:hover:bg-white/[0.08] hover:bg-gray-50 transition-all duration-300 cursor-pointer group shadow-lg dark:shadow-black/20 shadow-gray-200/50 micro-hover" aria-label="Ver serviços de Cutelaria">
+<div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br from-red-500/20 to-red-500/5 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+<svg class="w-5 h-5 sm:w-6 sm:h-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+</div>
+<span class="dark:text-white/70 text-text-light-secondary text-[10px] sm:text-xs font-bold">Cutelaria</span>
+</button>
+<button onclick="trackEvent('top_icon_click',{icon:'Digital'});document.querySelector('#servicos').scrollIntoView({behavior:'smooth'})" class="w-[115px] h-[115px] sm:w-32 sm:h-32 lg:w-[160px] lg:h-[160px] dark:bg-white/[0.04] bg-white dark:border-white/[0.06] border-gray-200 border backdrop-blur-xl rounded-2xl flex flex-col items-center justify-center gap-2 dark:hover:bg-white/[0.08] hover:bg-gray-50 transition-all duration-300 cursor-pointer group shadow-lg dark:shadow-black/20 shadow-gray-200/50 micro-hover" aria-label="Ver serviços Digitais">
+<div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br from-blue-500/20 to-blue-500/5 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+<svg class="w-5 h-5 sm:w-6 sm:h-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+</div>
+<span class="dark:text-white/70 text-text-light-secondary text-[10px] sm:text-xs font-bold">Digital</span>
+</button>
+<button onclick="trackEvent('top_icon_click',{icon:'Domicílio'});document.querySelector('#servicos').scrollIntoView({behavior:'smooth'})" class="w-[115px] h-[115px] sm:w-32 sm:h-32 lg:w-[160px] lg:h-[160px] dark:bg-white/[0.04] bg-white dark:border-white/[0.06] border-gray-200 border backdrop-blur-xl rounded-2xl flex flex-col items-center justify-center gap-2 dark:hover:bg-white/[0.08] hover:bg-gray-50 transition-all duration-300 cursor-pointer group shadow-lg dark:shadow-black/20 shadow-gray-200/50 micro-hover" aria-label="Ver serviços em Domicílio">
+<div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br from-green-500/20 to-green-500/5 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+<svg class="w-5 h-5 sm:w-6 sm:h-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+</div>
+<span class="dark:text-white/70 text-text-light-secondary text-[10px] sm:text-xs font-bold">Domicílio</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SOCIAL PROOF BAR -->
+<section class="relative dark:bg-surface-card bg-white section-alt border-y dark:border-surface-border/30 border-gray-200" aria-label="Estatísticas">
+<div class="max-w-7xl mx-auto px-4 sm:px-6">
+<div class="grid grid-cols-2 md:grid-cols-4 divide-x dark:divide-surface-border/20 divide-gray-200">
+<div class="py-7 md:py-10 text-center scroll-reveal" style="transition-delay:0ms">
+<p class="font-heading font-black text-accent text-2xl sm:text-3xl md:text-4xl counter-value" data-target="850" data-suffix="+">0+</p>
+<p class="dark:text-white/35 text-text-light-muted text-[10px] sm:text-xs font-semibold mt-1 uppercase tracking-wider">Clientes Atendidos</p>
+</div>
+<div class="py-7 md:py-10 text-center scroll-reveal" style="transition-delay:100ms">
+<p class="font-heading font-black text-accent text-2xl sm:text-3xl md:text-4xl">24<span class="text-lg">h</span></p>
+<p class="dark:text-white/35 text-text-light-muted text-[10px] sm:text-xs font-semibold mt-1 uppercase tracking-wider">Disponível</p>
+</div>
+<div class="py-7 md:py-10 text-center scroll-reveal" style="transition-delay:200ms">
+<p class="font-heading font-black text-accent text-2xl sm:text-3xl md:text-4xl counter-value" data-target="20" data-suffix=" min">0 min</p>
+<p class="dark:text-white/35 text-text-light-muted text-[10px] sm:text-xs font-semibold mt-1 uppercase tracking-wider">Tempo de Resposta</p>
+</div>
+<div class="py-7 md:py-10 text-center scroll-reveal" style="transition-delay:300ms">
+<p class="font-heading font-black text-accent text-2xl sm:text-3xl md:text-4xl flex items-center justify-center gap-1">5.0 <svg class="w-4 h-4 sm:w-5 sm:h-5 fill-accent text-accent" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></p>
+<p class="dark:text-white/35 text-text-light-muted text-[10px] sm:text-xs font-semibold mt-1 uppercase tracking-wider">Avaliação</p>
+</div>
+</div>
+</div>
+</section>
+<!-- SERVICES -->
+<section id="servicos" class="dark:bg-surface-dark bg-surface-light section-main noise py-14 md:py-24" aria-label="Nossos serviços">
+<div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6">
+<div class="text-center mb-12 scroll-reveal">
+<span class="inline-flex items-center gap-2 text-accent font-bold text-xs uppercase tracking-[0.2em] mb-3">
+<span class="w-8 h-px bg-accent/50"></span> Nossos Serviços <span class="w-8 h-px bg-accent/50"></span>
+</span>
+<h2 class="font-heading font-black dark:text-white text-brand-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-tight">
+Soluções em <span class="text-gradient">Chaveiro e Cutelaria</span>
+</h2>
+<p class="dark:text-white/35 text-text-light-muted mt-3 max-w-lg mx-auto text-sm">Serviços profissionais com atendimento em domicílio, rapidez e garantia.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
+<!-- Service 1 -->
+<article class="scroll-reveal group relative card-glow light-card-shadow dark:bg-surface-elevated/50 bg-white rounded-2xl p-5 sm:p-6 md:p-7 dark:border-surface-border/40 border-gray-200 border dark:hover:border-accent/30 hover:border-accent/40 transition-all duration-500 micro-hover dark:hover:shadow-2xl dark:hover:shadow-accent/5" style="transition-delay:0ms">
+<span class="service-num">01</span>
+<span class="absolute top-4 right-4 text-[9px] font-bold uppercase tracking-wider bg-accent/10 text-accent px-2.5 py-1 rounded-full">Popular</span>
+<div class="w-12 h-12 dark:bg-accent/10 bg-accent/10 group-hover:bg-accent rounded-xl flex items-center justify-center mb-4 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-accent/20">
+<svg class="w-6 h-6 text-accent group-hover:text-brand-black transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4"/><path d="m21 2-9.6 9.6"/><circle cx="7.5" cy="15.5" r="5.5"/></svg>
+</div>
+<h3 class="font-heading font-bold dark:text-white text-brand-black text-base sm:text-lg mb-2">Chaves Codificadas e Residenciais</h3>
+<p class="dark:text-white/35 text-text-light-muted text-sm leading-relaxed mb-3">Confecção e duplicação de chaves codificadas, residenciais e automotivas.</p>
+<ul class="space-y-1.5 mb-4">
+<li class="flex items-start gap-2 text-xs dark:text-white/30 text-text-light-muted"><svg class="w-3.5 h-3.5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Chaves com chip e transponder</li>
+<li class="flex items-start gap-2 text-xs dark:text-white/30 text-text-light-muted"><svg class="w-3.5 h-3.5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Residenciais e de cadeado</li>
+<li class="flex items-start gap-2 text-xs dark:text-white/30 text-text-light-muted"><svg class="w-3.5 h-3.5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Garantia no serviço</li>
+</ul>
+<button onclick="openContactModal()" class="cta-modal inline-flex items-center gap-1.5 text-accent hover:text-accent-hover text-sm font-bold transition-colors group/link">
+Solicitar <svg class="w-3.5 h-3.5 group-hover/link:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+</button>
+</article>
+<!-- Service 2 -->
+<article class="scroll-reveal group relative card-glow light-card-shadow dark:bg-surface-elevated/50 bg-white rounded-2xl p-5 sm:p-6 md:p-7 dark:border-surface-border/40 border-gray-200 border dark:hover:border-accent/30 hover:border-accent/40 transition-all duration-500 micro-hover dark:hover:shadow-2xl" style="transition-delay:80ms">
+<span class="service-num">02</span>
+<div class="w-12 h-12 dark:bg-accent/10 bg-accent/10 group-hover:bg-accent rounded-xl flex items-center justify-center mb-4 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-accent/20">
+<svg class="w-6 h-6 text-accent group-hover:text-brand-black transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+</div>
+<h3 class="font-heading font-bold dark:text-white text-brand-black text-base sm:text-lg mb-2">Afiamos Objetos Cortantes</h3>
+<p class="dark:text-white/35 text-text-light-muted text-sm leading-relaxed mb-3">Afiação profissional de facas, tesouras, lâminas e utensílios de corte.</p>
+<ul class="space-y-1.5 mb-4">
+<li class="flex items-start gap-2 text-xs dark:text-white/30 text-text-light-muted"><svg class="w-3.5 h-3.5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Facas domésticas e profissionais</li>
+<li class="flex items-start gap-2 text-xs dark:text-white/30 text-text-light-muted"><svg class="w-3.5 h-3.5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Tesouras e lâminas de corte</li>
+<li class="flex items-start gap-2 text-xs dark:text-white/30 text-text-light-muted"><svg class="w-3.5 h-3.5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Retorno do fio original</li>
+</ul>
+<button onclick="openContactModal()" class="cta-modal inline-flex items-center gap-1.5 text-accent hover:text-accent-hover text-sm font-bold transition-colors group/link">
+Solicitar <svg class="w-3.5 h-3.5 group-hover/link:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+</button>
+</article>
+<!-- Service 3 -->
+<article class="scroll-reveal group relative card-glow light-card-shadow dark:bg-surface-elevated/50 bg-white rounded-2xl p-5 sm:p-6 md:p-7 dark:border-surface-border/40 border-gray-200 border dark:hover:border-accent/30 hover:border-accent/40 transition-all duration-500 micro-hover dark:hover:shadow-2xl" style="transition-delay:160ms">
+<span class="service-num">03</span>
+<div class="w-12 h-12 dark:bg-accent/10 bg-accent/10 group-hover:bg-accent rounded-xl flex items-center justify-center mb-4 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-accent/20">
+<svg class="w-6 h-6 text-accent group-hover:text-brand-black transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+</div>
+<h3 class="font-heading font-bold dark:text-white text-brand-black text-base sm:text-lg mb-2">Fechadura Digital</h3>
+<p class="dark:text-white/35 text-text-light-muted text-sm leading-relaxed mb-3">Instalação e manutenção de fechaduras eletrônicas e digitais.</p>
+<ul class="space-y-1.5 mb-4">
+<li class="flex items-start gap-2 text-xs dark:text-white/30 text-text-light-muted"><svg class="w-3.5 h-3.5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Biometria, senha e cartão</li>
+<li class="flex items-start gap-2 text-xs dark:text-white/30 text-text-light-muted"><svg class="w-3.5 h-3.5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Instalação profissional</li>
+<li class="flex items-start gap-2 text-xs dark:text-white/30 text-text-light-muted"><svg class="w-3.5 h-3.5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Suporte técnico</li>
+</ul>
+<button onclick="openContactModal()" class="cta-modal inline-flex items-center gap-1.5 text-accent hover:text-accent-hover text-sm font-bold transition-colors group/link">
+Solicitar <svg class="w-3.5 h-3.5 group-hover/link:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+</button>
+</article>
+<!-- Service 4 -->
+<article class="scroll-reveal group relative card-glow light-card-shadow dark:bg-surface-elevated/50 bg-white rounded-2xl p-5 sm:p-6 md:p-7 dark:border-surface-border/40 border-gray-200 border dark:hover:border-accent/30 hover:border-accent/40 transition-all duration-500 micro-hover dark:hover:shadow-2xl" style="transition-delay:240ms">
+<span class="service-num">04</span>
+<div class="w-12 h-12 dark:bg-accent/10 bg-accent/10 group-hover:bg-accent rounded-xl flex items-center justify-center mb-4 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-accent/20">
+<svg class="w-6 h-6 text-accent group-hover:text-brand-black transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M2 7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7z"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+</div>
+<h3 class="font-heading font-bold dark:text-white text-brand-black text-base sm:text-lg mb-2">Interfone e Câmeras</h3>
+<p class="dark:text-white/35 text-text-light-muted text-sm leading-relaxed mb-3">Instalação e reparo de interfones e sistemas de câmeras de segurança.</p>
+<ul class="space-y-1.5 mb-4">
+<li class="flex items-start gap-2 text-xs dark:text-white/30 text-text-light-muted"><svg class="w-3.5 h-3.5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Interfones residenciais</li>
+<li class="flex items-start gap-2 text-xs dark:text-white/30 text-text-light-muted"><svg class="w-3.5 h-3.5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Câmeras de segurança</li>
+<li class="flex items-start gap-2 text-xs dark:text-white/30 text-text-light-muted"><svg class="w-3.5 h-3.5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Manutenção e configuração</li>
+</ul>
+<button onclick="openContactModal()" class="cta-modal inline-flex items-center gap-1.5 text-accent hover:text-accent-hover text-sm font-bold transition-colors group/link">
+Solicitar <svg class="w-3.5 h-3.5 group-hover/link:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+</button>
+</article>
+<!-- Service 5 -->
+<article class="scroll-reveal group relative card-glow light-card-shadow dark:bg-surface-elevated/50 bg-white rounded-2xl p-5 sm:p-6 md:p-7 dark:border-surface-border/40 border-gray-200 border dark:hover:border-accent/30 hover:border-accent/40 transition-all duration-500 micro-hover dark:hover:shadow-2xl" style="transition-delay:320ms">
+<span class="service-num">05</span>
+<div class="w-12 h-12 dark:bg-accent/10 bg-accent/10 group-hover:bg-accent rounded-xl flex items-center justify-center mb-4 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-accent/20">
+<svg class="w-6 h-6 text-accent group-hover:text-brand-black transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 9h16M9 4v16"/></svg>
+</div>
+<h3 class="font-heading font-bold dark:text-white text-brand-black text-base sm:text-lg mb-2">Carimbos</h3>
+<p class="dark:text-white/35 text-text-light-muted text-sm leading-relaxed mb-3">Confecção de carimbos personalizados para empresas e profissionais.</p>
+<ul class="space-y-1.5 mb-4">
+<li class="flex items-start gap-2 text-xs dark:text-white/30 text-text-light-muted"><svg class="w-3.5 h-3.5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Carimbos automáticos e manuais</li>
+<li class="flex items-start gap-2 text-xs dark:text-white/30 text-text-light-muted"><svg class="w-3.5 h-3.5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Logotipos e textos personalizados</li>
+<li class="flex items-start gap-2 text-xs dark:text-white/30 text-text-light-muted"><svg class="w-3.5 h-3.5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Entrega rápida</li>
+</ul>
+<button onclick="openContactModal()" class="cta-modal inline-flex items-center gap-1.5 text-accent hover:text-accent-hover text-sm font-bold transition-colors group/link">
+Solicitar <svg class="w-3.5 h-3.5 group-hover/link:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+</button>
+</article>
+<!-- Service 6 -->
+<article class="scroll-reveal group relative card-glow light-card-shadow dark:bg-surface-elevated/50 bg-white rounded-2xl p-5 sm:p-6 md:p-7 dark:border-surface-border/40 border-gray-200 border dark:hover:border-accent/30 hover:border-accent/40 transition-all duration-500 micro-hover dark:hover:shadow-2xl" style="transition-delay:400ms">
+<span class="service-num">06</span>
+<span class="absolute top-4 right-4 text-[9px] font-bold uppercase tracking-wider bg-accent/10 text-accent px-2.5 py-1 rounded-full flex items-center gap-1"><span class="w-1.5 h-1.5 bg-accent rounded-full animate-pulse"></span>Destaque</span>
+<div class="w-12 h-12 dark:bg-accent/10 bg-accent/10 group-hover:bg-accent rounded-xl flex items-center justify-center mb-4 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-accent/20">
+<svg class="w-6 h-6 text-accent group-hover:text-brand-black transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+</div>
+<h3 class="font-heading font-bold dark:text-white text-brand-black text-base sm:text-lg mb-2">Placas Residenciais</h3>
+<p class="dark:text-white/35 text-text-light-muted text-sm leading-relaxed mb-3">Confecção de placas de identificação residencial e comercial.</p>
+<ul class="space-y-1.5 mb-4">
+<li class="flex items-start gap-2 text-xs dark:text-white/30 text-text-light-muted"><svg class="w-3.5 h-3.5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Personalizadas com seu nome</li>
+<li class="flex items-start gap-2 text-xs dark:text-white/30 text-text-light-muted"><svg class="w-3.5 h-3.5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Materiais duráveis</li>
+<li class="flex items-start gap-2 text-xs dark:text-white/30 text-text-light-muted"><svg class="w-3.5 h-3.5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Instalação inclusa</li>
+</ul>
+<button onclick="openContactModal()" class="cta-modal inline-flex items-center gap-1.5 text-accent hover:text-accent-hover text-sm font-bold transition-colors group/link">
+Solicitar <svg class="w-3.5 h-3.5 group-hover/link:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+</button>
+</article>
+</div>
+</div>
+</section>
+<!-- DIFERENCIAIS -->
+<section id="diferenciais" class="relative dark:bg-surface-card bg-white section-alt py-14 md:py-24 overflow-hidden" aria-label="Diferenciais">
+<div class="absolute top-0 right-0 w-96 h-96 bg-accent/[0.02] rounded-full blur-[100px]"></div>
+<div class="relative max-w-7xl mx-auto px-4 sm:px-6">
+<div class="text-center mb-12 scroll-reveal">
+<span class="inline-flex items-center gap-2 text-accent font-bold text-xs uppercase tracking-[0.2em] mb-3">
+<span class="w-8 h-px bg-accent/50"></span> Diferenciais <span class="w-8 h-px bg-accent/50"></span>
+</span>
+<h2 class="font-heading font-black dark:text-white text-brand-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-tight">
+Por que escolher o <span class="text-gradient">MARCELO</span>?
+</h2>
+<p class="dark:text-white/35 text-text-light-muted mt-3 text-sm max-w-lg mx-auto">Clique em cada item para saber mais.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4" id="differentials-grid">
+<div class="scroll-reveal" style="transition-delay:0ms"><div class="diff-item group rounded-2xl dark:bg-surface-elevated/40 bg-white light-card-shadow dark:border-surface-border/30 border-gray-200 border transition-all duration-300 overflow-hidden"><button onclick="toggleDiff(this)" class="w-full flex flex-col items-center text-center p-4 sm:p-5 md:p-6 cursor-pointer transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-t-2xl" aria-expanded="false"><div class="diff-icon w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center mb-3 transition-all duration-300 dark:bg-accent/10 bg-accent/10"><svg class="w-6 h-6 sm:w-7 sm:h-7 text-accent transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><h3 class="font-heading font-bold dark:text-white text-brand-black text-xs sm:text-sm md:text-base mb-1">Atendimento em Domicílio</h3><p class="dark:text-white/35 text-text-light-muted text-[10px] sm:text-[11px]">Vamos até você</p><svg class="w-4 h-4 mt-2 dark:text-white/15 text-gray-400 transition-transform duration-300 diff-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="accordion-content"><div class="px-4 pb-4 dark:border-surface-border/20 border-gray-200 border-t pt-3 text-center"><p class="dark:text-white/45 text-text-light-secondary text-xs leading-relaxed mb-3">Atendimento no seu endereço com equipamento completo. Sem necessidade de deslocamento.</p><p class="text-accent text-[11px] font-bold mb-3">📍 Campo Grande e região</p><button onclick="event.stopPropagation();openContactModal()" class="cta-modal inline-flex items-center gap-1.5 bg-accent hover:bg-accent-hover text-brand-black font-bold text-[11px] px-3.5 py-2 rounded-xl transition-all hover:scale-105"><svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> WhatsApp</button></div></div></div></div>
+<div class="scroll-reveal" style="transition-delay:80ms"><div class="diff-item group rounded-2xl dark:bg-surface-elevated/40 bg-white light-card-shadow dark:border-surface-border/30 border-gray-200 border transition-all duration-300 overflow-hidden"><button onclick="toggleDiff(this)" class="w-full flex flex-col items-center text-center p-4 sm:p-5 md:p-6 cursor-pointer transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-t-2xl" aria-expanded="false"><div class="diff-icon w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center mb-3 transition-all duration-300 dark:bg-accent/10 bg-accent/10"><svg class="w-6 h-6 sm:w-7 sm:h-7 text-accent transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div><h3 class="font-heading font-bold dark:text-white text-brand-black text-xs sm:text-sm md:text-base mb-1">Profissional Experiente</h3><p class="dark:text-white/35 text-text-light-muted text-[10px] sm:text-[11px]">Marcelo — especializado</p><svg class="w-4 h-4 mt-2 dark:text-white/15 text-gray-400 transition-transform duration-300 diff-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="accordion-content"><div class="px-4 pb-4 dark:border-surface-border/20 border-gray-200 border-t pt-3 text-center"><p class="dark:text-white/45 text-text-light-secondary text-xs leading-relaxed mb-3">Anos de experiência em chaveiro e cutelaria, com treinamento em técnicas modernas de segurança.</p><p class="text-accent text-[11px] font-bold mb-3">🏅 Técnico certificado</p><button onclick="event.stopPropagation();openContactModal()" class="cta-modal inline-flex items-center gap-1.5 bg-accent hover:bg-accent-hover text-brand-black font-bold text-[11px] px-3.5 py-2 rounded-xl transition-all hover:scale-105"><svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> WhatsApp</button></div></div></div></div>
+<div class="scroll-reveal" style="transition-delay:160ms"><div class="diff-item group rounded-2xl dark:bg-surface-elevated/40 bg-white light-card-shadow dark:border-surface-border/30 border-gray-200 border transition-all duration-300 overflow-hidden"><button onclick="toggleDiff(this)" class="w-full flex flex-col items-center text-center p-4 sm:p-5 md:p-6 cursor-pointer transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-t-2xl" aria-expanded="false"><div class="diff-icon w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center mb-3 transition-all duration-300 dark:bg-accent/10 bg-accent/10"><svg class="w-6 h-6 sm:w-7 sm:h-7 text-accent transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div><h3 class="font-heading font-bold dark:text-white text-brand-black text-xs sm:text-sm md:text-base mb-1">Rapidez</h3><p class="dark:text-white/35 text-text-light-muted text-[10px] sm:text-[11px]">Ágil e eficiente</p><svg class="w-4 h-4 mt-2 dark:text-white/15 text-gray-400 transition-transform duration-300 diff-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="accordion-content"><div class="px-4 pb-4 dark:border-surface-border/20 border-gray-200 border-t pt-3 text-center"><p class="dark:text-white/45 text-text-light-secondary text-xs leading-relaxed mb-3">Emergências exigem agilidade. Resolvemos seu problema o mais rápido possível, sem comprometer a qualidade.</p><p class="text-accent text-[11px] font-bold mb-3">⚡ 15–30 min</p><button onclick="event.stopPropagation();openContactModal()" class="cta-modal inline-flex items-center gap-1.5 bg-accent hover:bg-accent-hover text-brand-black font-bold text-[11px] px-3.5 py-2 rounded-xl transition-all hover:scale-105"><svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> WhatsApp</button></div></div></div></div>
+<div class="scroll-reveal" style="transition-delay:240ms"><div class="diff-item group rounded-2xl dark:bg-surface-elevated/40 bg-white light-card-shadow dark:border-surface-border/30 border-gray-200 border transition-all duration-300 overflow-hidden"><button onclick="toggleDiff(this)" class="w-full flex flex-col items-center text-center p-4 sm:p-5 md:p-6 cursor-pointer transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-t-2xl" aria-expanded="false"><div class="diff-icon w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center mb-3 transition-all duration-300 dark:bg-accent/10 bg-accent/10"><svg class="w-6 h-6 sm:w-7 sm:h-7 text-accent transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div><h3 class="font-heading font-bold dark:text-white text-brand-black text-xs sm:text-sm md:text-base mb-1">Garantia</h3><p class="dark:text-white/35 text-text-light-muted text-[10px] sm:text-[11px]">Serviço garantido</p><svg class="w-4 h-4 mt-2 dark:text-white/15 text-gray-400 transition-transform duration-300 diff-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="accordion-content"><div class="px-4 pb-4 dark:border-surface-border/20 border-gray-200 border-t pt-3 text-center"><p class="dark:text-white/45 text-text-light-secondary text-xs leading-relaxed mb-3">Todos os serviços com garantia. Técnicas profissionais e equipamentos de qualidade.</p><p class="text-accent text-[11px] font-bold mb-3">🔒 Garantia total</p><button onclick="event.stopPropagation();openContactModal()" class="cta-modal inline-flex items-center gap-1.5 bg-accent hover:bg-accent-hover text-brand-black font-bold text-[11px] px-3.5 py-2 rounded-xl transition-all hover:scale-105"><svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> WhatsApp</button></div></div></div></div>
+<div class="scroll-reveal" style="transition-delay:320ms"><div class="diff-item group rounded-2xl dark:bg-surface-elevated/40 bg-white light-card-shadow dark:border-surface-border/30 border-gray-200 border transition-all duration-300 overflow-hidden"><button onclick="toggleDiff(this)" class="w-full flex flex-col items-center text-center p-4 sm:p-5 md:p-6 cursor-pointer transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-t-2xl" aria-expanded="false"><div class="diff-icon w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center mb-3 transition-all duration-300 dark:bg-accent/10 bg-accent/10"><svg class="w-6 h-6 sm:w-7 sm:h-7 text-accent transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M12 12h.01M17 12h.01M7 12h.01"/></svg></div><h3 class="font-heading font-bold dark:text-white text-brand-black text-xs sm:text-sm md:text-base mb-1">Preço Justo</h3><p class="dark:text-white/35 text-text-light-muted text-[10px] sm:text-[11px]">Sem surpresas</p><svg class="w-4 h-4 mt-2 dark:text-white/15 text-gray-400 transition-transform duration-300 diff-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="accordion-content"><div class="px-4 pb-4 dark:border-surface-border/20 border-gray-200 border-t pt-3 text-center"><p class="dark:text-white/45 text-text-light-secondary text-xs leading-relaxed mb-3">Orçamento transparente. Preço honesto e sem cobranças surpresa. Aceitamos PIX, cartão e dinheiro.</p><p class="text-accent text-[11px] font-bold mb-3">💰 PIX • Cartão • Dinheiro</p><button onclick="event.stopPropagation();openContactModal()" class="cta-modal inline-flex items-center gap-1.5 bg-accent hover:bg-accent-hover text-brand-black font-bold text-[11px] px-3.5 py-2 rounded-xl transition-all hover:scale-105"><svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> WhatsApp</button></div></div></div></div>
+<div class="scroll-reveal" style="transition-delay:400ms"><div class="diff-item group rounded-2xl dark:bg-surface-elevated/40 bg-white light-card-shadow dark:border-surface-border/30 border-gray-200 border transition-all duration-300 overflow-hidden"><button onclick="toggleDiff(this)" class="w-full flex flex-col items-center text-center p-4 sm:p-5 md:p-6 cursor-pointer transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-t-2xl" aria-expanded="false"><div class="diff-icon w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center mb-3 transition-all duration-300 dark:bg-accent/10 bg-accent/10"><svg class="w-6 h-6 sm:w-7 sm:h-7 text-accent transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div><h3 class="font-heading font-bold dark:text-white text-brand-black text-xs sm:text-sm md:text-base mb-1">Qualidade</h3><p class="dark:text-white/35 text-text-light-muted text-[10px] sm:text-[11px]">Materiais premium</p><svg class="w-4 h-4 mt-2 dark:text-white/15 text-gray-400 transition-transform duration-300 diff-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="accordion-content"><div class="px-4 pb-4 dark:border-surface-border/20 border-gray-200 border-t pt-3 text-center"><p class="dark:text-white/45 text-text-light-secondary text-xs leading-relaxed mb-3">Trabalhamos com materiais de primeira linha e equipamentos modernos para garantir durabilidade.</p><p class="text-accent text-[11px] font-bold mb-3">⭐ Qualidade garantida</p><button onclick="event.stopPropagation();openContactModal()" class="cta-modal inline-flex items-center gap-1.5 bg-accent hover:bg-accent-hover text-brand-black font-bold text-[11px] px-3.5 py-2 rounded-xl transition-all hover:scale-105"><svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> WhatsApp</button></div></div></div></div>
+</div>
+</div>
+</section>
+<!-- ABOUT -->
+<section id="sobre" class="relative dark:bg-surface-card bg-white section-alt py-14 md:py-24 overflow-hidden" aria-label="Sobre nós">
+<div class="absolute bottom-0 left-0 w-80 h-80 bg-accent/[0.02] rounded-full blur-[100px]"></div>
+<div class="relative max-w-7xl mx-auto px-4 sm:px-6">
+<div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
+<div class="flex-1 flex justify-center scroll-reveal-left">
+<div class="relative w-full max-w-xs sm:max-w-sm lg:max-w-md">
+<div class="absolute -inset-3 bg-gradient-to-br from-accent/15 via-accent/5 to-transparent rounded-3xl"></div>
+<div class="absolute -top-2 -left-2 w-14 h-14 border-t-2 border-l-2 border-accent rounded-tl-2xl"></div>
+<div class="absolute -bottom-2 -right-2 w-14 h-14 border-b-2 border-r-2 border-accent rounded-br-2xl"></div>
+<div class="relative rounded-2xl overflow-hidden shadow-2xl dark:shadow-accent/5 shadow-gray-300/30 aspect-[4/5]">
+<img src="https://raw.githubusercontent.com/creativethb/Marcelo-chaveiro/main/IMG/BANNER.png" alt="Marcelo Chaveiro — Banner" class="w-full h-full object-cover" loading="lazy" width="400" height="500" />
+<div class="absolute inset-0 bg-gradient-to-t from-brand-black/40 via-transparent to-transparent"></div>
+<div class="absolute bottom-3 right-3 flex items-center gap-2 bg-brand-black/70 backdrop-blur-md rounded-lg px-2.5 py-1.5 border border-white/10 shadow-lg">
+<div class="w-6 h-6 bg-accent rounded-md flex items-center justify-center shrink-0"><svg class="w-3.5 h-3.5 text-brand-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div>
+<div><p class="text-white font-bold text-[10px] sm:text-[11px] leading-tight">Chaveiro e Cutelaria</p><p class="text-white/40 text-[8px] sm:text-[9px] leading-tight">Marcelo</p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="flex-1 scroll-reveal-right">
+<span class="inline-flex items-center gap-2 text-accent font-bold text-xs uppercase tracking-[0.2em] mb-3"><span class="w-8 h-px bg-accent/50"></span> Sobre nós</span>
+<h2 class="font-heading font-black dark:text-white text-brand-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 tracking-tight">Conheça o <span class="text-gradient">MARCELO</span></h2>
+<div class="space-y-3 dark:text-white/45 text-text-light-secondary leading-relaxed text-sm sm:text-[15px]">
+<p>O <strong class="dark:text-white text-brand-black font-bold">MARCELO CHAVEIRO</strong> é especializado em soluções de chaveiro e cutelaria. Com equipamentos modernos e atendimento em domicílio, Marcelo atende Campo Grande e região com rapidez e qualidade.</p>
+<p>Nossos serviços incluem chaves codificadas e residenciais, afiação de objetos cortantes, fechaduras digitais, interfones, câmeras, carimbos e placas residenciais.</p>
+<p>Com experiência e dedicação, Marcelo construiu uma reputação sólida baseada em confiança, pontualidade e preço justo.</p>
+</div>
+<div class="grid grid-cols-3 gap-2 sm:gap-3 mt-6 mb-6">
+<div class="text-center dark:bg-surface-elevated/40 bg-surface-light dark:border-surface-border/30 border-gray-200 border rounded-xl p-3"><p class="font-heading font-black text-accent text-lg sm:text-xl">24h</p><p class="dark:text-white/30 text-text-light-muted text-[9px] sm:text-[10px] font-semibold mt-0.5">Disponível</p></div>
+<div class="text-center dark:bg-surface-elevated/40 bg-surface-light dark:border-surface-border/30 border-gray-200 border rounded-xl p-3"><p class="font-heading font-black text-accent text-lg sm:text-xl">20min</p><p class="dark:text-white/30 text-text-light-muted text-[9px] sm:text-[10px] font-semibold mt-0.5">Resposta</p></div>
+<div class="text-center dark:bg-surface-elevated/40 bg-surface-light dark:border-surface-border/30 border-gray-200 border rounded-xl p-3"><p class="font-heading font-black text-accent text-lg sm:text-xl">100%</p><p class="dark:text-white/30 text-text-light-muted text-[9px] sm:text-[10px] font-semibold mt-0.5">Garantia</p></div>
+</div>
+<button onclick="openContactModal()" class="cta-modal inline-flex items-center justify-center gap-2 font-bold rounded-xl transition-all hover:scale-[1.03] active:scale-[0.98] bg-accent hover:bg-accent-hover text-brand-black shadow-lg shadow-accent/20 text-sm px-6 py-3.5">
+<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Falar com Marcelo
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- COVERAGE AREA -->
+<section class="dark:bg-surface-dark bg-surface-light section-main noise py-10 md:py-16" aria-label="Área de cobertura">
+<div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6">
+<div class="scroll-reveal dark:bg-surface-card/50 bg-white light-card-shadow rounded-2xl p-5 sm:p-6 md:p-8 dark:border-surface-border/30 border-gray-200 border">
+<div class="flex flex-col md:flex-row items-center gap-5">
+<div class="flex-1">
+<div class="flex items-center gap-3 mb-3">
+<div class="w-10 h-10 bg-accent/10 rounded-xl flex items-center justify-center"><svg class="w-5 h-5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg></div>
+<h3 class="font-heading font-bold dark:text-white text-brand-black text-lg">Área de Cobertura</h3>
+</div>
+<p class="dark:text-white/40 text-text-light-muted text-sm mb-4">Atendemos em domicílio nos seguintes bairros:</p>
+<div class="flex flex-wrap gap-2">
+<span class="inline-flex items-center gap-1 dark:bg-surface-elevated/50 bg-surface-light dark:border-surface-border/30 border-gray-200 border text-xs font-semibold dark:text-white/60 text-text-light-secondary px-3 py-1.5 rounded-lg">📍 Campo Grande</span>
+<span class="inline-flex items-center gap-1 dark:bg-surface-elevated/50 bg-surface-light dark:border-surface-border/30 border-gray-200 border text-xs font-semibold dark:text-white/60 text-text-light-secondary px-3 py-1.5 rounded-lg">📍 Senador Camará</span>
+<span class="inline-flex items-center gap-1 dark:bg-surface-elevated/50 bg-surface-light dark:border-surface-border/30 border-gray-200 border text-xs font-semibold dark:text-white/60 text-text-light-secondary px-3 py-1.5 rounded-lg">📍 Santíssimo</span>
+<span class="inline-flex items-center gap-1 dark:bg-surface-elevated/50 bg-surface-light dark:border-surface-border/30 border-gray-200 border text-xs font-semibold dark:text-white/60 text-text-light-secondary px-3 py-1.5 rounded-lg">📍 Bangu</span>
+<span class="inline-flex items-center gap-1 dark:bg-surface-elevated/50 bg-surface-light dark:border-surface-border/30 border-gray-200 border text-xs font-semibold dark:text-white/60 text-text-light-secondary px-3 py-1.5 rounded-lg">📍 Guaratiba</span>
+<span class="inline-flex items-center gap-1 dark:bg-surface-elevated/50 bg-surface-light dark:border-surface-border/30 border-gray-200 border text-xs font-semibold dark:text-white/60 text-text-light-secondary px-3 py-1.5 rounded-lg">📍 Sepetiba</span>
+<span class="inline-flex items-center gap-1 dark:bg-accent/10 bg-accent/10 border border-accent/20 text-xs font-bold text-accent px-3 py-1.5 rounded-lg">+ Região</span>
+</div>
+</div>
+<div class="shrink-0 w-full md:w-auto">
+<button onclick="openContactModal()" class="cta-modal w-full md:w-auto inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-hover text-brand-black font-bold text-sm px-6 py-3.5 rounded-xl shadow-lg shadow-accent/20 transition-all hover:scale-105">
+<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Consultar disponibilidade
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ -->
+<section id="faq" class="dark:bg-surface-card bg-white section-alt py-14 md:py-24" aria-label="Perguntas frequentes">
+<div class="max-w-3xl mx-auto px-4 sm:px-6">
+<div class="text-center mb-12 scroll-reveal">
+<span class="inline-flex items-center gap-2 text-accent font-bold text-xs uppercase tracking-[0.2em] mb-3"><span class="w-8 h-px bg-accent/50"></span> FAQ <span class="w-8 h-px bg-accent/50"></span></span>
+<h2 class="font-heading font-black dark:text-white text-brand-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-tight">Perguntas <span class="text-gradient">Frequentes</span></h2>
+</div>
+<div class="space-y-3" id="faq-list">
+<div class="scroll-reveal faq-item dark:bg-surface-elevated/40 bg-white light-card-shadow dark:border-surface-border/30 border-gray-200 border rounded-2xl overflow-hidden transition-all duration-300" style="transition-delay:0ms"><button onclick="toggleFaq(this)" class="w-full flex items-center justify-between p-4 sm:p-5 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-2xl" aria-expanded="false"><div class="flex items-center gap-3 pr-4"><span class="shrink-0 w-7 h-7 rounded-lg dark:bg-accent/10 bg-accent/10 flex items-center justify-center text-accent font-bold text-[10px]">01</span><span class="font-heading font-bold dark:text-white text-brand-black text-xs sm:text-sm">Vocês atendem em domicílio?</span></div><div class="faq-icon shrink-0 w-7 h-7 rounded-lg dark:bg-white/5 bg-gray-100 flex items-center justify-center transition-all duration-300"><svg class="w-3.5 h-3.5 dark:text-white/30 text-gray-400 transition-all duration-300 faq-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div></button><div class="accordion-content"><div class="px-4 sm:px-5 pb-4 sm:pb-5 ml-10 dark:text-white/45 text-text-light-secondary text-sm leading-relaxed dark:border-surface-border/20 border-gray-200 border-t pt-3">Sim! Atendemos no local 24 horas por dia, 7 dias por semana, em Campo Grande e região.</div></div></div>
+<div class="scroll-reveal faq-item dark:bg-surface-elevated/40 bg-white light-card-shadow dark:border-surface-border/30 border-gray-200 border rounded-2xl overflow-hidden transition-all duration-300" style="transition-delay:60ms"><button onclick="toggleFaq(this)" class="w-full flex items-center justify-between p-4 sm:p-5 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-2xl" aria-expanded="false"><div class="flex items-center gap-3 pr-4"><span class="shrink-0 w-7 h-7 rounded-lg dark:bg-accent/10 bg-accent/10 flex items-center justify-center text-accent font-bold text-[10px]">02</span><span class="font-heading font-bold dark:text-white text-brand-black text-xs sm:text-sm">Quanto tempo demora o atendimento?</span></div><div class="faq-icon shrink-0 w-7 h-7 rounded-lg dark:bg-white/5 bg-gray-100 flex items-center justify-center transition-all duration-300"><svg class="w-3.5 h-3.5 dark:text-white/30 text-gray-400 transition-all duration-300 faq-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div></button><div class="accordion-content"><div class="px-4 sm:px-5 pb-4 sm:pb-5 ml-10 dark:text-white/45 text-text-light-secondary text-sm leading-relaxed dark:border-surface-border/20 border-gray-200 border-t pt-3">Em média 15 a 30 minutos, dependendo do serviço e localização dentro da área de cobertura.</div></div></div>
+<div class="scroll-reveal faq-item dark:bg-surface-elevated/40 bg-white light-card-shadow dark:border-surface-border/30 border-gray-200 border rounded-2xl overflow-hidden transition-all duration-300" style="transition-delay:120ms"><button onclick="toggleFaq(this)" class="w-full flex items-center justify-between p-4 sm:p-5 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-2xl" aria-expanded="false"><div class="flex items-center gap-3 pr-4"><span class="shrink-0 w-7 h-7 rounded-lg dark:bg-accent/10 bg-accent/10 flex items-center justify-center text-accent font-bold text-[10px]">03</span><span class="font-heading font-bold dark:text-white text-brand-black text-xs sm:text-sm">Qual a forma de pagamento?</span></div><div class="faq-icon shrink-0 w-7 h-7 rounded-lg dark:bg-white/5 bg-gray-100 flex items-center justify-center transition-all duration-300"><svg class="w-3.5 h-3.5 dark:text-white/30 text-gray-400 transition-all duration-300 faq-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div></button><div class="accordion-content"><div class="px-4 sm:px-5 pb-4 sm:pb-5 ml-10 dark:text-white/45 text-text-light-secondary text-sm leading-relaxed dark:border-surface-border/20 border-gray-200 border-t pt-3">Aceitamos PIX, dinheiro, cartão de débito e crédito.</div></div></div>
+<div class="scroll-reveal faq-item dark:bg-surface-elevated/40 bg-white light-card-shadow dark:border-surface-border/30 border-gray-200 border rounded-2xl overflow-hidden transition-all duration-300" style="transition-delay:180ms"><button onclick="toggleFaq(this)" class="w-full flex items-center justify-between p-4 sm:p-5 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-2xl" aria-expanded="false"><div class="flex items-center gap-3 pr-4"><span class="shrink-0 w-7 h-7 rounded-lg dark:bg-accent/10 bg-accent/10 flex items-center justify-center text-accent font-bold text-[10px]">04</span><span class="font-heading font-bold dark:text-white text-brand-black text-xs sm:text-sm">O serviço tem garantia?</span></div><div class="faq-icon shrink-0 w-7 h-7 rounded-lg dark:bg-white/5 bg-gray-100 flex items-center justify-center transition-all duration-300"><svg class="w-3.5 h-3.5 dark:text-white/30 text-gray-400 transition-all duration-300 faq-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div></button><div class="accordion-content"><div class="px-4 sm:px-5 pb-4 sm:pb-5 ml-10 dark:text-white/45 text-text-light-secondary text-sm leading-relaxed dark:border-surface-border/20 border-gray-200 border-t pt-3">Sim, todos os serviços possuem garantia. Consulte os termos com o Marcelo.</div></div></div>
+<div class="scroll-reveal faq-item dark:bg-surface-elevated/40 bg-white light-card-shadow dark:border-surface-border/30 border-gray-200 border rounded-2xl overflow-hidden transition-all duration-300" style="transition-delay:240ms"><button onclick="toggleFaq(this)" class="w-full flex items-center justify-between p-4 sm:p-5 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-2xl" aria-expanded="false"><div class="flex items-center gap-3 pr-4"><span class="shrink-0 w-7 h-7 rounded-lg dark:bg-accent/10 bg-accent/10 flex items-center justify-center text-accent font-bold text-[10px]">05</span><span class="font-heading font-bold dark:text-white text-brand-black text-xs sm:text-sm">Vocês fazem afiação de quê?</span></div><div class="faq-icon shrink-0 w-7 h-7 rounded-lg dark:bg-white/5 bg-gray-100 flex items-center justify-center transition-all duration-300"><svg class="w-3.5 h-3.5 dark:text-white/30 text-gray-400 transition-all duration-300 faq-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div></button><div class="accordion-content"><div class="px-4 sm:px-5 pb-4 sm:pb-5 ml-10 dark:text-white/45 text-text-light-secondary text-sm leading-relaxed dark:border-surface-border/20 border-gray-200 border-t pt-3">Afiamos facas domésticas e profissionais, tesouras, lâminas de corte e outros utensílios cortantes.</div></div></div>
+<div class="scroll-reveal faq-item dark:bg-surface-elevated/40 bg-white light-card-shadow dark:border-surface-border/30 border-gray-200 border rounded-2xl overflow-hidden transition-all duration-300" style="transition-delay:300ms"><button onclick="toggleFaq(this)" class="w-full flex items-center justify-between p-4 sm:p-5 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-2xl" aria-expanded="false"><div class="flex items-center gap-3 pr-4"><span class="shrink-0 w-7 h-7 rounded-lg dark:bg-accent/10 bg-accent/10 flex items-center justify-center text-accent font-bold text-[10px]">06</span><span class="font-heading font-bold dark:text-white text-brand-black text-xs sm:text-sm">Instalam fechadura digital?</span></div><div class="faq-icon shrink-0 w-7 h-7 rounded-lg dark:bg-white/5 bg-gray-100 flex items-center justify-center transition-all duration-300"><svg class="w-3.5 h-3.5 dark:text-white/30 text-gray-400 transition-all duration-300 faq-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div></button><div class="accordion-content"><div class="px-4 sm:px-5 pb-4 sm:pb-5 ml-10 dark:text-white/45 text-text-light-secondary text-sm leading-relaxed dark:border-surface-border/20 border-gray-200 border-t pt-3">Sim! Instalamos e configuramos fechaduras digitais com biometria, senha ou cartão. Também fazemos manutenção.</div></div></div>
+</div>
+<div class="text-center mt-8 scroll-reveal" style="transition-delay:350ms">
+<p class="dark:text-white/35 text-text-light-muted text-sm mb-3">Ainda tem dúvidas?</p>
+<button onclick="openContactModal()" class="cta-modal inline-flex items-center gap-2 bg-accent hover:bg-accent-hover text-brand-black font-bold text-sm px-6 py-3 rounded-xl shadow-lg shadow-accent/20 transition-all hover:scale-105"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Pergunte no WhatsApp</button>
+</div>
+</div>
+</section>
+<!-- CTA BANNER -->
+<section class="relative overflow-hidden py-14 md:py-24 scroll-reveal" aria-label="Chamada para ação">
+<div class="absolute inset-0 bg-gradient-to-br from-accent via-accent-hover to-accent"></div>
+<div class="absolute inset-0 opacity-10" style="background-image:radial-gradient(circle at 2px 2px,rgba(0,0,0,.15) 1px,transparent 0);background-size:24px 24px"></div>
+<div class="absolute top-0 left-0 w-96 h-96 bg-white/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+<div class="absolute bottom-0 right-0 w-80 h-80 bg-black/5 rounded-full translate-x-1/3 translate-y-1/3"></div>
+<div class="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
+<div class="inline-flex items-center gap-2 bg-brand-black/10 text-brand-black text-xs font-bold px-4 py-2 rounded-full mb-5"><span class="w-2 h-2 bg-brand-black/30 rounded-full animate-pulse"></span> ATENDIMENTO EM DOMICÍLIO</div>
+<h2 class="font-heading font-black text-brand-black text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-3 tracking-tight leading-[0.95]">Precisa de chaveiro?<br/>Ou afiação?</h2>
+<p class="text-brand-black/60 text-sm sm:text-base md:text-lg mb-7 max-w-lg mx-auto font-medium">Chegamos rápido! Marcelo resolve no local com equipamentos profissionais.</p>
+<div class="flex flex-col sm:flex-row gap-3 justify-center">
+<button onclick="openContactModal()" class="cta-modal inline-flex items-center justify-center gap-2.5 font-bold rounded-2xl transition-all hover:scale-[1.03] active:scale-[0.98] bg-brand-black hover:bg-brand-black/90 text-white shadow-xl shadow-black/20 text-sm sm:text-base px-6 sm:px-8 py-3.5 sm:py-4 group"><svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Chamar no WhatsApp <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg></button>
+<button onclick="openContactModal()" class="cta-modal inline-flex items-center justify-center gap-2.5 font-bold rounded-2xl transition-all hover:scale-[1.02] active:scale-[0.98] bg-white hover:bg-white/90 text-brand-black shadow-xl shadow-black/10 text-sm sm:text-base px-6 sm:px-8 py-3.5 sm:py-4"><svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Ligar Agora</button>
+</div>
+</div>
+</section>
+<!-- CONTACT -->
+<section id="contato" class="dark:bg-surface-dark bg-surface-light section-main noise py-14 md:py-24" aria-label="Contato e localização">
+<div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6">
+<div class="text-center mb-12 scroll-reveal">
+<span class="inline-flex items-center gap-2 text-accent font-bold text-xs uppercase tracking-[0.2em] mb-3"><span class="w-8 h-px bg-accent/50"></span> Contato <span class="w-8 h-px bg-accent/50"></span></span>
+<h2 class="font-heading font-black dark:text-white text-brand-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-tight">Fale com o <span class="text-gradient">MARCELO</span></h2>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12">
+<div class="space-y-4 scroll-reveal-left">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+<button onclick="openContactModal()" class="cta-modal flex items-center gap-3 dark:bg-green-whatsapp/10 bg-green-50 dark:border-green-whatsapp/20 border-green-200 border rounded-xl p-4 transition-all group dark:hover:bg-green-whatsapp/15 hover:bg-green-100 micro-hover text-left w-full"><div class="w-11 h-11 bg-green-whatsapp rounded-xl flex items-center justify-center shrink-0 shadow-md shadow-green-whatsapp/20"><svg class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><div><p class="font-bold dark:text-white text-brand-black text-sm">WhatsApp</p><p class="text-green-whatsapp text-xs font-semibold">2027-7332</p></div></button>
+<button onclick="openContactModal()" class="cta-modal flex items-center gap-3 dark:bg-accent/5 bg-amber-50 dark:border-accent/15 border-amber-200 border rounded-xl p-4 transition-all group dark:hover:bg-accent/10 hover:bg-amber-100 micro-hover text-left w-full"><div class="w-11 h-11 bg-accent rounded-xl flex items-center justify-center shrink-0 shadow-md shadow-accent/20"><svg class="w-5 h-5 text-brand-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div><div><p class="font-bold dark:text-white text-brand-black text-sm">Celular</p><p class="text-accent text-xs font-semibold">2027-7332</p></div></button>
+<a href="https://www.google.com/maps/search/?api=1&query=Estrada+da+Posse,+580+-+Campo+Grande,+Rio+de+Janeiro+-+RJ" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 dark:bg-blue-500/10 bg-blue-50 dark:border-blue-500/20 border-blue-200 border rounded-xl p-4 transition-all dark:hover:bg-blue-500/15 hover:bg-blue-100 micro-hover"><div class="w-11 h-11 bg-blue-600 rounded-xl flex items-center justify-center shrink-0 shadow-md shadow-blue-600/20"><svg class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><p class="font-bold dark:text-white text-brand-black text-sm">Endereço</p><p class="dark:text-blue-400 text-blue-600 text-xs font-semibold">Estrada da Posse, 580</p></div></a>
+</div>
+<div class="dark:bg-surface-card/40 bg-white light-card-shadow rounded-xl p-4 dark:border-surface-border/20 border-gray-200 border">
+<p class="dark:text-white/40 text-text-light-muted text-xs font-bold uppercase tracking-wider mb-3">Formas de Pagamento</p>
+<div class="flex flex-wrap gap-2">
+<span class="inline-flex items-center gap-1.5 dark:bg-surface-elevated/50 bg-surface-light text-xs font-semibold dark:text-white/50 text-text-light-secondary px-3 py-1.5 rounded-lg dark:border-surface-border/20 border-gray-200 border">💵 Dinheiro</span>
+<span class="inline-flex items-center gap-1.5 dark:bg-surface-elevated/50 bg-surface-light text-xs font-semibold dark:text-white/50 text-text-light-secondary px-3 py-1.5 rounded-lg dark:border-surface-border/20 border-gray-200 border">📱 PIX</span>
+<span class="inline-flex items-center gap-1.5 dark:bg-surface-elevated/50 bg-surface-light text-xs font-semibold dark:text-white/50 text-text-light-secondary px-3 py-1.5 rounded-lg dark:border-surface-border/20 border-gray-200 border">💳 Débito</span>
+<span class="inline-flex items-center gap-1.5 dark:bg-surface-elevated/50 bg-surface-light text-xs font-semibold dark:text-white/50 text-text-light-secondary px-3 py-1.5 rounded-lg dark:border-surface-border/20 border-gray-200 border">💳 Crédito</span>
+</div>
+</div>
+<div class="rounded-2xl overflow-hidden shadow-xl dark:shadow-black/30 shadow-gray-200/50 dark:border-surface-border/30 border-gray-200 border h-48 sm:h-64">
+<iframe title="Localização Marcelo Chaveiro" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2!2d-43.2827!3d-22.8569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDUxJzI0LjgiUyA0M8KwMTYnNTcuNyJX!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Estrada+da+Posse,+580+-+Campo+Grande,+Rio+de+Janeiro+-+RJ" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm px-6 py-3 rounded-xl transition-all w-full justify-center shadow-lg shadow-blue-600/20 hover:scale-[1.01]"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg> Como chegar</a>
+</div>
+<div class="scroll-reveal-right">
+<div class="dark:bg-surface-card/50 bg-white light-card-shadow rounded-2xl p-5 sm:p-6 md:p-8 dark:border-surface-border/30 border-gray-200 border">
+<h3 class="font-heading font-black dark:text-white text-brand-black text-lg sm:text-xl mb-1">Solicitar Orçamento Rápido</h3>
+<p class="dark:text-white/30 text-text-light-muted text-sm mb-5">Sem spam — resposta via WhatsApp em minutos.</p>
+<div class="space-y-3 mb-5">
+<div class="flex items-center gap-3 dark:bg-surface-elevated/40 bg-surface-light rounded-xl p-3.5 dark:border-surface-border/20 border-gray-200 border"><div class="w-9 h-9 bg-green-whatsapp/10 rounded-lg flex items-center justify-center shrink-0"><svg class="w-4 h-4 text-green-whatsapp" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div><div><p class="font-bold dark:text-white text-brand-black text-sm">Resposta rápida</p><p class="dark:text-white/30 text-text-light-muted text-[11px]">Retorno em até 20 minutos</p></div></div>
+<div class="flex items-center gap-3 dark:bg-surface-elevated/40 bg-surface-light rounded-xl p-3.5 dark:border-surface-border/20 border-gray-200 border"><div class="w-9 h-9 bg-accent/10 rounded-lg flex items-center justify-center shrink-0"><svg class="w-4 h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div><div><p class="font-bold dark:text-white text-brand-black text-sm">Sem compromisso</p><p class="dark:text-white/30 text-text-light-muted text-[11px]">Preço justo e transparente</p></div></div>
+<div class="flex items-center gap-3 dark:bg-surface-elevated/40 bg-surface-light rounded-xl p-3.5 dark:border-surface-border/20 border-gray-200 border"><div class="w-9 h-9 bg-blue-500/10 rounded-lg flex items-center justify-center shrink-0"><svg class="w-4 h-4 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><p class="font-bold dark:text-white text-brand-black text-sm">No seu local</p><p class="dark:text-white/30 text-text-light-muted text-[11px]">Campo Grande e toda a região</p></div></div>
+</div>
+<button onclick="openContactModal()" class="cta-modal w-full inline-flex items-center justify-center gap-2.5 bg-accent hover:bg-accent-hover text-brand-black font-black text-sm sm:text-base py-3.5 sm:py-4 rounded-xl shadow-lg shadow-accent/25 transition-all hover:scale-[1.01] active:scale-[0.99]"><svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg> Solicitar Orçamento</button>
+<p class="text-center dark:text-white/15 text-text-light-muted text-[10px] mt-3">Serviço com garantia — Marcelo atende pessoalmente</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FOOTER -->
+<footer class="bg-brand-black text-white" role="contentinfo">
+<div class="h-1 bg-gradient-to-r from-accent via-accent-hover to-accent"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 py-10 md:py-16">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="sm:col-span-2 lg:col-span-1">
+<div class="flex items-center gap-3 mb-4">
+<div class="w-10 h-10 rounded-xl overflow-hidden border-2 border-accent/20 shadow-lg shadow-accent/10"><img src="https://raw.githubusercontent.com/creativethb/Marcelo-chaveiro/main/IMG/LOGO.jpg" alt="Marcelo Chaveiro" class="w-full h-full object-cover" loading="lazy" width="40" height="40" /></div>
+<div><span class="font-heading font-black text-white text-base block leading-tight">MARCELO <span class="text-accent">CHAVEIRO</span></span><span class="text-white/20 text-[10px] tracking-widest uppercase">Campo Grande — RJ</span></div>
+</div>
+<p class="text-white/30 text-sm leading-relaxed">Chaveiro e Cutelaria. Atendimento em domicílio com rapidez e garantia.</p>
+</div>
+<div>
+<h4 class="font-heading font-bold text-accent text-xs mb-4 uppercase tracking-wider">Navegação</h4>
+<nav class="space-y-2.5"><a href="#servicos" class="block text-white/30 hover:text-accent text-sm transition-colors">Serviços</a><a href="#diferenciais" class="block text-white/30 hover:text-accent text-sm transition-colors">Diferenciais</a><a href="#sobre" class="block text-white/30 hover:text-accent text-sm transition-colors">Sobre</a><a href="#faq" class="block text-white/30 hover:text-accent text-sm transition-colors">FAQ</a><a href="#contato" class="block text-white/30 hover:text-accent text-sm transition-colors">Contato</a></nav>
+</div>
+<div>
+<h4 class="font-heading font-bold text-accent text-xs mb-4 uppercase tracking-wider">Serviços</h4>
+<ul class="space-y-2.5 text-white/30 text-sm"><li>Chaves codificadas e residenciais</li><li>Afiação de objetos cortantes</li><li>Fechadura digital</li><li>Interfone e câmeras</li><li>Carimbos</li><li>Placas residenciais</li></ul>
+</div>
+<div>
+<h4 class="font-heading font-bold text-accent text-xs mb-4 uppercase tracking-wider">Contato</h4>
+<div class="space-y-2.5 text-sm">
+<a href="https://www.google.com/maps/search/?api=1&query=Estrada+da+Posse,+580+-+Campo+Grande,+Rio+de+Janeiro+-+RJ" target="_blank" rel="noopener noreferrer" class="flex items-start gap-2 text-white/30 hover:text-accent transition-colors">📍 Estrada da Posse, 580 — Campo Grande, RJ</a>
+<a href="tel:+552120277332" class="flex items-center gap-2 text-white/30 hover:text-accent transition-colors">📞 2027-7332</a>
+<a href="https://wa.me/552120277332" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-white/30 hover:text-accent transition-colors">💬 WhatsApp</a>
+<div class="flex items-center gap-2 text-accent font-bold pt-1">⏰ Atendimento em Domicílio</div>
+</div>
+</div>
+</div>
+<div class="border-t border-white/5 mt-8 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
+<p class="text-white/15 text-xs text-center sm:text-left">© 2025 MARCELO CHAVEIRO — Todos os direitos reservados.</p>
+<p class="text-white/15 text-xs">Estrada da Posse, 580 — Campo Grande, Rio de Janeiro — RJ</p>
+</div>
+</div>
+</footer>
+<!-- FLOATING BUTTONS -->
+<div id="floating-mobile" class="fixed bottom-0 left-0 right-0 z-50 md:hidden translate-y-full opacity-0 transition-all duration-500">
+<div class="dark:bg-brand-black/95 bg-white/95 backdrop-blur-xl border-t dark:border-white/5 border-gray-200 safe-area-pb px-4 py-2">
+<button onclick="openContactModal()" class="cta-modal w-full flex items-center justify-center gap-2 py-3 bg-accent hover:bg-accent-hover text-brand-black font-bold text-sm rounded-xl active:scale-[0.98] transition-all shadow-lg shadow-accent/20" aria-label="Fale Conosco">
+<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Fale Conosco — WhatsApp
+</button>
+</div>
+</div>
+<div id="floating-desktop" class="hidden md:flex fixed bottom-8 right-8 flex-col gap-3 z-50 translate-y-8 opacity-0 transition-all duration-500">
+<button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" class="w-12 h-12 dark:bg-surface-card bg-white dark:border-surface-border border-gray-200 border dark:text-white/50 text-text-light-muted rounded-xl shadow-xl flex items-center justify-center transition-all hover:scale-110 hover:text-accent" aria-label="Voltar ao topo">
+<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+<button onclick="openContactModal()" class="cta-modal w-14 h-14 bg-accent hover:bg-accent-hover text-brand-black rounded-2xl shadow-xl shadow-accent/30 flex items-center justify-center transition-all hover:scale-110 hover:shadow-accent/50 animate-pulse-glow" aria-label="Fale Conosco">
+<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+</button>
+</div>
+<div class="h-16 md:h-0"></div>
+<!-- CONTACT MODAL -->
+<div id="contact-modal" class="fixed inset-0 z-[100] hidden" role="dialog" aria-modal="true" aria-label="Como você prefere falar com a gente?">
+<div id="modal-overlay" class="absolute inset-0 bg-black/60 backdrop-blur-sm" onclick="closeContactModal()"></div>
+<div class="absolute inset-0 flex items-end md:items-center justify-center pointer-events-none">
+<div id="modal-box" class="pointer-events-auto relative w-full max-w-md md:max-w-lg md:mx-4 dark:bg-surface-card bg-white rounded-t-3xl md:rounded-3xl shadow-2xl dark:border-surface-border/30 border-gray-200 border overflow-hidden">
+<div class="md:hidden flex justify-center pt-3 pb-1"><div class="w-10 h-1 bg-gray-300 dark:bg-white/20 rounded-full"></div></div>
+<button onclick="closeContactModal()" class="absolute top-4 right-4 w-9 h-9 rounded-xl dark:bg-white/5 bg-gray-100 dark:hover:bg-white/10 hover:bg-gray-200 flex items-center justify-center transition-all z-10" aria-label="Fechar"><svg class="w-4 h-4 dark:text-white/50 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+<div class="p-5 sm:p-6 md:p-8">
+<!-- CHOICE -->
+<div id="modal-choice">
+<div class="w-12 h-12 bg-accent/10 rounded-2xl flex items-center justify-center mb-4"><svg class="w-6 h-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+<h3 class="font-heading font-black dark:text-white text-brand-black text-lg sm:text-xl mb-1.5">Como você prefere falar com a gente?</h3>
+<p class="dark:text-white/35 text-text-light-muted text-sm mb-5">Escolha a melhor forma de contato.</p>
+<div class="space-y-3">
+<button onclick="handleCallChoice()" class="w-full flex items-center gap-3 p-4 rounded-2xl dark:bg-surface-elevated/40 bg-surface-light dark:border-surface-border/40 border-gray-200 border dark:hover:border-accent/30 hover:border-accent/50 transition-all group micro-hover">
+<div class="w-11 h-11 bg-accent rounded-xl flex items-center justify-center shrink-0 shadow-md shadow-accent/20 group-hover:scale-105 transition-transform"><svg class="w-5 h-5 text-brand-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+<div class="text-left flex-1"><p class="font-bold dark:text-white text-brand-black text-sm">Ligar agora</p><p class="dark:text-white/30 text-text-light-muted text-[11px]">Redirecionamento para chamada</p></div>
+<svg class="w-4 h-4 dark:text-white/15 text-gray-300 group-hover:text-accent transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+</button>
+<button onclick="handleWhatsAppChoice()" class="w-full flex items-center gap-3 p-4 rounded-2xl dark:bg-surface-elevated/40 bg-surface-light dark:border-surface-border/40 border-gray-200 border dark:hover:border-green-whatsapp/30 hover:border-green-whatsapp/50 transition-all group micro-hover">
+<div class="w-11 h-11 bg-green-whatsapp rounded-xl flex items-center justify-center shrink-0 shadow-md shadow-green-whatsapp/20 group-hover:scale-105 transition-transform"><svg class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+<div class="text-left flex-1"><p class="font-bold dark:text-white text-brand-black text-sm">Falar no WhatsApp</p><p class="dark:text-white/30 text-text-light-muted text-[11px]">Preencha e envie sua mensagem</p></div>
+<svg class="w-4 h-4 dark:text-white/15 text-gray-300 group-hover:text-green-whatsapp transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+</button>
+</div>
+<p class="text-center dark:text-white/15 text-text-light-muted text-[10px] mt-5 flex items-center justify-center gap-1">⚡ Resposta em até 20 minutos</p>
+</div>
+<!-- FORM -->
+<div id="modal-form" class="hidden">
+<button onclick="showModalState('choice')" class="flex items-center gap-1 text-accent text-xs font-bold mb-3 hover:underline">← Voltar</button>
+<div class="w-10 h-10 bg-green-whatsapp/10 rounded-xl flex items-center justify-center mb-3"><svg class="w-5 h-5 text-green-whatsapp" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg></div>
+<h3 class="font-heading font-black dark:text-white text-brand-black text-lg mb-1">Fale rápido — estamos pertinho</h3>
+<p class="dark:text-white/35 text-text-light-muted text-sm mb-4">Preencha e envie direto pelo WhatsApp.</p>
+<form id="whatsapp-form" onsubmit="handleFormSubmit(event)" class="space-y-3">
+<div>
+<label for="form-nome" class="block text-[11px] font-bold dark:text-white/50 text-text-light-secondary mb-1">Nome <span class="text-red-500">*</span></label>
+<input id="form-nome" type="text" required aria-required="true" placeholder="Seu nome" class="w-full px-3.5 py-3 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-accent transition-all" />
+</div>
+<div>
+<label for="form-telefone" class="block text-[11px] font-bold dark:text-white/50 text-text-light-secondary mb-1">Telefone <span class="text-red-500">*</span></label>
+<input id="form-telefone" type="tel" required aria-required="true" placeholder="(21) 99999-9999" class="w-full px-3.5 py-3 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-accent transition-all" />
+<p id="phone-error" class="text-red-500 text-[10px] mt-1 hidden">⚠️ Telefone inválido</p>
+</div>
+<div>
+<label for="form-servico" class="block text-[11px] font-bold dark:text-white/50 text-text-light-secondary mb-1">Serviço</label>
+<select id="form-servico" class="w-full px-3.5 py-3 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-accent transition-all">
+<option value="">Selecione</option>
+<option value="Chaves codificadas e residenciais">Chaves codificadas e residenciais</option>
+<option value="Afiação de objetos cortantes">Afiação de objetos cortantes</option>
+<option value="Fechadura Digital">Fechadura Digital</option>
+<option value="Interfone e Câmeras">Interfone e Câmeras</option>
+<option value="Carimbos">Carimbos</option>
+<option value="Placas residenciais">Placas residenciais</option>
+<option value="Outro">Outro</option>
+</select>
+</div>
+<div>
+<label for="form-mensagem" class="block text-[11px] font-bold dark:text-white/50 text-text-light-secondary mb-1">Mensagem <span class="dark:text-white/15 text-text-light-muted">(opcional)</span></label>
+<textarea id="form-mensagem" rows="2" placeholder="Ex.: Preciso de chave codificada — urgente" class="w-full px-3.5 py-3 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-accent transition-all resize-none"></textarea>
+</div>
+<button type="submit" id="form-submit-btn" class="w-full flex items-center justify-center gap-2 bg-green-whatsapp hover:bg-green-whatsapp-hover disabled:opacity-70 text-white font-black text-sm py-3.5 rounded-xl shadow-lg shadow-green-whatsapp/25 transition-all hover:scale-[1.01] active:scale-[0.99]">
+<svg class="w-4 h-4" id="submit-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+<span id="submit-text">Enviar pelo WhatsApp</span>
+</button>
+</form>
+<p class="text-center dark:text-white/15 text-text-light-muted text-[10px] mt-3">Sem spam — resposta em minutos</p>
+</div>
+<!-- CONFIRM -->
+<div id="modal-confirm" class="hidden">
+<div class="text-center py-4">
+<div class="w-16 h-16 bg-green-whatsapp/10 rounded-full flex items-center justify-center mx-auto mb-4"><svg class="w-8 h-8 text-green-whatsapp" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+<h3 class="font-heading font-black dark:text-white text-brand-black text-xl mb-1.5">Pronto!</h3>
+<p class="dark:text-white/45 text-text-light-secondary text-sm mb-1">Abrindo o WhatsApp com sua mensagem…</p>
+<p class="dark:text-white/25 text-text-light-muted text-sm mb-6">O Marcelo vai responder rapidinho 🚀</p>
+<button onclick="closeContactModal()" class="inline-flex items-center gap-2 bg-accent hover:bg-accent-hover text-brand-black font-bold text-sm px-8 py-3 rounded-xl transition-all">Fechar</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- SCRIPTS -->
+<script>
+(function(){
+'use strict';
+var WA='552120277332',PHONE='tel:+552120277332',lastSent=0,trigger=null;
+window.trackEvent=function(e,d){try{window.dataLayer.push(Object.assign({event:e},d||{}))}catch(x){}};
+/* THEME */
+function applyTheme(d){
+var h=document.documentElement;
+if(d){h.className='dark'}else{h.className='light'}
+var m=document.getElementById('meta-theme');
+if(m)m.setAttribute('content',d?'#0A0A0A':'#f5f5f0');
+localStorage.setItem('marcelo-theme',d?'dark':'light');
+}
+document.getElementById('theme-toggle').addEventListener('click',function(){
+applyTheme(!document.documentElement.classList.contains('dark'));
+});
+/* SCROLL PROGRESS */
+var prog=document.getElementById('scroll-progress');
+function updateProgress(){var h=document.documentElement.scrollHeight-window.innerHeight;prog.style.width=h>0?(window.scrollY/h*100)+'%':'0'}
+/* HEADER */
+var header=document.getElementById('header'),annBar=document.getElementById('announcement-bar');
+function onScroll(){
+var s=window.scrollY;
+if(s>40){
+header.style.top='0';
+header.classList.add('scrolled');
+annBar.style.transform='translateY(-100%)';
+}else{
+header.style.top='32px';
+header.classList.remove('scrolled');
+annBar.style.transform='translateY(0)';
+}
+updateProgress();
+}
+window.addEventListener('scroll',onScroll,{passive:true});
+onScroll();
+/* MOBILE MENU */
+var menuO=false,mt=document.getElementById('menu-toggle'),mn=document.getElementById('mobile-nav'),mio=document.getElementById('menu-icon-open'),mic=document.getElementById('menu-icon-close');
+mt.addEventListener('click',function(){
+menuO=!menuO;
+if(menuO){mn.classList.remove('max-h-0','opacity-0');mn.classList.add('max-h-96','opacity-100');mio.classList.add('hidden');mic.classList.remove('hidden');mt.setAttribute('aria-expanded','true')}
+else{mn.classList.add('max-h-0','opacity-0');mn.classList.remove('max-h-96','opacity-100');mio.classList.remove('hidden');mic.classList.add('hidden');mt.setAttribute('aria-expanded','false')}
+});
+document.querySelectorAll('.mobile-nav-link').forEach(function(l){l.addEventListener('click',function(){
+menuO=false;mn.classList.add('max-h-0','opacity-0');mn.classList.remove('max-h-96','opacity-100');mio.classList.remove('hidden');mic.classList.add('hidden');mt.setAttribute('aria-expanded','false');
+})});
+/* MODAL */
+var modal=document.getElementById('contact-modal'),mbox=document.getElementById('modal-box'),cs=document.getElementById('modal-choice'),fs=document.getElementById('modal-form'),xs=document.getElementById('modal-confirm');
+var sn=localStorage.getItem('marcelo-name')||'',sp=localStorage.getItem('marcelo-phone')||'';
+document.getElementById('form-nome').value=sn;document.getElementById('form-telefone').value=sp;
+window.openContactModal=function(){
+trackEvent('contact_modal_open');trigger=document.activeElement;showModalState('choice');
+modal.classList.remove('hidden');modal.classList.add('flex','animate-overlay-in');document.body.classList.add('modal-open');
+if(window.innerWidth<768){mbox.classList.add('animate-sheet-in');mbox.classList.remove('animate-modal-in')}
+else{mbox.classList.add('animate-modal-in');mbox.classList.remove('animate-sheet-in')}
+setTimeout(function(){var b=mbox.querySelector('button');if(b)b.focus()},100);
+};
+window.closeContactModal=function(){
+document.body.classList.remove('modal-open');modal.classList.add('hidden');modal.classList.remove('flex','animate-overlay-in');
+if(trigger){trigger.focus();trigger=null}
+};
+window.showModalState=function(s){
+cs.classList.add('hidden');fs.classList.add('hidden');xs.classList.add('hidden');
+if(s==='choice')cs.classList.remove('hidden');
+if(s==='form')fs.classList.remove('hidden');
+if(s==='confirm')xs.classList.remove('hidden');
+};
+window.handleCallChoice=function(){trackEvent('contact_call_initiated');window.location.href=PHONE;setTimeout(closeContactModal,500)};
+window.handleWhatsAppChoice=function(){trackEvent('contact_option_select',{option:'whatsapp'});showModalState('form')};
+window.handleFormSubmit=function(e){
+e.preventDefault();
+var n=document.getElementById('form-nome').value.trim(),t=document.getElementById('form-telefone').value.trim(),s=document.getElementById('form-servico').value,m=document.getElementById('form-mensagem').value.trim(),pe=document.getElementById('phone-error'),sb=document.getElementById('form-submit-btn'),st=document.getElementById('submit-text');
+var cp=t.replace(/\D/g,'');if(cp.length<10||cp.length>11){pe.classList.remove('hidden');return}pe.classList.add('hidden');
+var now=Date.now();if(now-lastSent<5000)return;lastSent=now;
+localStorage.setItem('marcelo-name',n);localStorage.setItem('marcelo-phone',t);
+sb.disabled=true;st.textContent='Enviando…';
+var p=['Olá! Meu nome é *'+n+'*.','📞 Telefone: '+t];if(s)p.push('🔧 Serviço: '+s);if(m)p.push('💬 '+m);p.push('_Enviado pelo site Marcelo Chaveiro_');
+var u='https://wa.me/'+WA+'?text='+encodeURIComponent(p.join('\n'));
+trackEvent('contact_whatsapp_submit',{servico:s});
+setTimeout(function(){sb.disabled=false;st.textContent='Enviar pelo WhatsApp';showModalState('confirm');window.open(u,'_blank')},1200);
+};
+document.addEventListener('keydown',function(e){
+if(!modal.classList.contains('hidden')){
+if(e.key==='Escape'){closeContactModal();return}
+if(e.key==='Tab'){var f=mbox.querySelectorAll('button,input,select,textarea,[tabindex]:not([tabindex="-1"])');if(!f.length)return;var fi=f[0],la=f[f.length-1];if(e.shiftKey&&document.activeElement===fi){e.preventDefault();la.focus()}else if(!e.shiftKey&&document.activeElement===la){e.preventDefault();fi.focus()}}
+}
+});
+document.getElementById('form-telefone').addEventListener('input',function(){document.getElementById('phone-error').classList.add('hidden')});
+/* FAQ */
+window.toggleFaq=function(b){
+var i=b.closest('.faq-item'),c=i.querySelector('.accordion-content'),ch=i.querySelector('.faq-chevron'),ib=i.querySelector('.faq-icon'),o=c.classList.contains('open');
+if(o){c.classList.remove('open');ch.style.transform='';ib.classList.remove('!bg-accent');i.classList.remove('dark:border-accent/20','border-accent/30');b.setAttribute('aria-expanded','false')}
+else{c.classList.add('open');ch.style.transform='rotate(180deg)';ib.classList.add('!bg-accent');i.classList.add('dark:border-accent/20','border-accent/30');b.setAttribute('aria-expanded','true')}
+};
+/* DIFFERENTIALS */
+window.toggleDiff=function(b){
+var i=b.closest('.diff-item'),c=i.querySelector('.accordion-content'),ch=i.querySelector('.diff-chevron'),ib=i.querySelector('.diff-icon'),o=c.classList.contains('open'),l=i.querySelector('h3')?i.querySelector('h3').textContent:'';
+trackEvent('trust_item_click',{item:l});
+if(o){c.classList.remove('open');ch.style.transform='';ib.classList.remove('!bg-accent','shadow-lg','shadow-accent/20');i.classList.remove('dark:border-accent/30','border-accent/30');b.setAttribute('aria-expanded','false')}
+else{c.classList.add('open');ch.style.transform='rotate(180deg)';ib.classList.add('!bg-accent','shadow-lg','shadow-accent/20');i.classList.add('dark:border-accent/30','border-accent/30');b.setAttribute('aria-expanded','true')}
+};
+/* SCROLL ANIMATIONS */
+var obs=new IntersectionObserver(function(entries){entries.forEach(function(en){if(en.isIntersecting){en.target.classList.add('visible')}})},{threshold:0.08});
+document.querySelectorAll('.scroll-reveal,.scroll-reveal-left,.scroll-reveal-right').forEach(function(el){obs.observe(el)});
+/* COUNTER ANIMATION */
+var counterObs=new IntersectionObserver(function(entries){entries.forEach(function(en){
+if(en.isIntersecting&&!en.target.dataset.counted){en.target.dataset.counted='1';var target=parseInt(en.target.dataset.target),suffix=en.target.dataset.suffix||'',duration=1500,start=Date.now();
+function animate(){var elapsed=Date.now()-start,progress=Math.min(elapsed/duration,1),eased=1-Math.pow(1-progress,3),current=Math.round(eased*target);en.target.textContent=current+suffix;if(progress<1)requestAnimationFrame(animate)}animate()}
+})},{threshold:0.3});
+document.querySelectorAll('.counter-value').forEach(function(el){counterObs.observe(el)});
+/* FLOATING */
+var fm=document.getElementById('floating-mobile'),fd=document.getElementById('floating-desktop'),btt=document.getElementById('back-to-top');
+window.addEventListener('scroll',function(){
+var s=window.scrollY;
+if(s>300){fm.classList.remove('translate-y-full','opacity-0');fm.classList.add('translate-y-0','opacity-100');fd.classList.remove('translate-y-8','opacity-0');fd.classList.add('translate-y-0','opacity-100')}
+else{fm.classList.add('translate-y-full','opacity-0');fm.classList.remove('translate-y-0','opacity-100');fd.classList.add('translate-y-8','opacity-0');fd.classList.remove('translate-y-0','opacity-100')}
+if(s>800){btt.classList.add('visible')}else{btt.classList.remove('visible')}
+},{passive:true});
+})();
+</script>
+</body>
+</html>
